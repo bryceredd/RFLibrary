@@ -12,9 +12,9 @@
 @interface LoadingView : UIView {
 }
 
-@property (nonatomic, weak) IBOutlet UIActivityIndicatorView * spinner;
-@property (nonatomic, weak) IBOutlet UILabel * loadingLabel;
-@property (nonatomic, weak) IBOutlet UIImageView *check;
+@property (nonatomic, assign) IBOutlet UIActivityIndicatorView * spinner;
+@property (nonatomic, assign) IBOutlet UILabel * loadingLabel;
+@property (nonatomic, assign) IBOutlet UIImageView *check;
 
 - (void) setPositionToCenterOfView:(UIView *)someView;
 - (void) setText:(NSString *)text;
