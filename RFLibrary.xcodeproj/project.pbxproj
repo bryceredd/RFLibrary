@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02780EA1154132FB006332E0 /* BorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780E9F154132FB006332E0 /* BorderView.h */; };
-		02780EA2154132FB006332E0 /* BorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EA0154132FB006332E0 /* BorderView.m */; };
-		02780EA3154132FB006332E0 /* BorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EA0154132FB006332E0 /* BorderView.m */; };
 		02780EAD1541333B006332E0 /* CoreGraphics+DDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA41541333B006332E0 /* CoreGraphics+DDAdditions.h */; };
 		02780EAE1541333B006332E0 /* CoreGraphics+TVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA51541333B006332E0 /* CoreGraphics+TVAdditions.h */; };
 		02780EAF1541333B006332E0 /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA61541333B006332E0 /* ISO8601DateFormatter.h */; };
@@ -74,6 +71,8 @@
 		02780F1815413979006332E0 /* RFLibrariesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780F1715413979006332E0 /* RFLibrariesTests.m */; };
 		02780F1A15413987006332E0 /* RFLibrariesTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02780F1915413987006332E0 /* RFLibrariesTests-Info.plist */; };
 		02780F1D1541398D006332E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02780F1B1541398D006332E0 /* InfoPlist.strings */; };
+		02780F4115413CCA006332E0 /* BorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780F3F15413CCA006332E0 /* BorderView.h */; };
+		02780F4215413CCA006332E0 /* BorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780F4015413CCA006332E0 /* BorderView.m */; };
 		029B447315412BD500D0E250 /* RFLibraries-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 029B447215412BD500D0E250 /* RFLibraries-Prefix.pch */; };
 		02E07139154094FE00BF4BCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07138154094FE00BF4BCE /* Foundation.framework */; };
 		02E07147154094FE00BF4BCE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07146154094FE00BF4BCE /* SenTestingKit.framework */; };
@@ -93,8 +92,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02780E9F154132FB006332E0 /* BorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BorderView.h; path = RFLibrary/BorderView.h; sourceTree = SOURCE_ROOT; };
-		02780EA0154132FB006332E0 /* BorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BorderView.m; path = RFLibrary/BorderView.m; sourceTree = SOURCE_ROOT; };
 		02780EA41541333B006332E0 /* CoreGraphics+DDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreGraphics+DDAdditions.h"; path = "RFLibrary/CoreGraphics+DDAdditions.h"; sourceTree = SOURCE_ROOT; };
 		02780EA51541333B006332E0 /* CoreGraphics+TVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreGraphics+TVAdditions.h"; path = "RFLibrary/CoreGraphics+TVAdditions.h"; sourceTree = SOURCE_ROOT; };
 		02780EA61541333B006332E0 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISO8601DateFormatter.h; path = RFLibrary/ISO8601DateFormatter.h; sourceTree = SOURCE_ROOT; };
@@ -141,10 +138,12 @@
 		02780F1715413979006332E0 /* RFLibrariesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFLibrariesTests.m; path = RFLibraryTests/RFLibrariesTests.m; sourceTree = SOURCE_ROOT; };
 		02780F1915413987006332E0 /* RFLibrariesTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "RFLibrariesTests-Info.plist"; path = "RFLibraryTests/RFLibrariesTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 		02780F1C1541398D006332E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = RFLibraryTests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		02780F3F15413CCA006332E0 /* BorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BorderView.h; path = RFLibrary/BorderView.h; sourceTree = SOURCE_ROOT; };
+		02780F4015413CCA006332E0 /* BorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BorderView.m; path = RFLibrary/BorderView.m; sourceTree = SOURCE_ROOT; };
 		029B447215412BD500D0E250 /* RFLibraries-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RFLibraries-Prefix.pch"; path = "RFLibrary/RFLibraries-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		02E07135154094FE00BF4BCE /* libRFLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRFLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E07138154094FE00BF4BCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		02E07145154094FE00BF4BCE /* RFLibrariesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFLibrariesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E07145154094FE00BF4BCE /* RFLibrariesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RFLibrariesTests.octest; path = RFLibraryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E07146154094FE00BF4BCE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		02E07148154094FE00BF4BCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -296,10 +295,10 @@
 				02780EC515413358006332E0 /* RNTextView.m */,
 				02780EC615413358006332E0 /* TextFieldWithInset.h */,
 				02780EC715413358006332E0 /* TextFieldWithInset.m */,
+				02780F3F15413CCA006332E0 /* BorderView.h */,
+				02780F4015413CCA006332E0 /* BorderView.m */,
 				02780EC815413358006332E0 /* YoutubeView.h */,
 				02780EC915413358006332E0 /* YoutubeView.m */,
-				02780E9F154132FB006332E0 /* BorderView.h */,
-				02780EA0154132FB006332E0 /* BorderView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -312,7 +311,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				029B447315412BD500D0E250 /* RFLibraries-Prefix.pch in Headers */,
-				02780EA1154132FB006332E0 /* BorderView.h in Headers */,
 				02780EAD1541333B006332E0 /* CoreGraphics+DDAdditions.h in Headers */,
 				02780EAE1541333B006332E0 /* CoreGraphics+TVAdditions.h in Headers */,
 				02780EAF1541333B006332E0 /* ISO8601DateFormatter.h in Headers */,
@@ -335,6 +333,7 @@
 				02780F0215413370006332E0 /* UIColor+Additions.h in Headers */,
 				02780F0515413370006332E0 /* UIImage+Additions.h in Headers */,
 				02780F0815413370006332E0 /* UIView+Additions.h in Headers */,
+				02780F4115413CCA006332E0 /* BorderView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +437,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02780EA2154132FB006332E0 /* BorderView.m in Sources */,
 				02780EB01541333B006332E0 /* ISO8601DateFormatter.m in Sources */,
 				02780EB31541333B006332E0 /* Reachability.m in Sources */,
 				02780EB71541333B006332E0 /* WebSnapsticle.m in Sources */,
@@ -458,6 +456,7 @@
 				02780F0315413370006332E0 /* UIColor+Additions.m in Sources */,
 				02780F0615413370006332E0 /* UIImage+Additions.m in Sources */,
 				02780F0915413370006332E0 /* UIView+Additions.m in Sources */,
+				02780F4215413CCA006332E0 /* BorderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,7 +464,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02780EA3154132FB006332E0 /* BorderView.m in Sources */,
 				02780EB11541333B006332E0 /* ISO8601DateFormatter.m in Sources */,
 				02780EB41541333B006332E0 /* Reachability.m in Sources */,
 				02780EB81541333B006332E0 /* WebSnapsticle.m in Sources */,
