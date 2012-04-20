@@ -11,85 +11,48 @@
 		02780EAE1541333B006332E0 /* CoreGraphics+TVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA51541333B006332E0 /* CoreGraphics+TVAdditions.h */; };
 		02780EAF1541333B006332E0 /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA61541333B006332E0 /* ISO8601DateFormatter.h */; };
 		02780EB01541333B006332E0 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EA71541333B006332E0 /* ISO8601DateFormatter.m */; };
-		02780EB11541333B006332E0 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EA71541333B006332E0 /* ISO8601DateFormatter.m */; };
 		02780EB21541333B006332E0 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA81541333B006332E0 /* Reachability.h */; };
 		02780EB31541333B006332E0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EA91541333B006332E0 /* Reachability.m */; };
-		02780EB41541333B006332E0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EA91541333B006332E0 /* Reachability.m */; };
 		02780EB51541333B006332E0 /* RFMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EAA1541333B006332E0 /* RFMacros.h */; };
 		02780EB61541333B006332E0 /* WebSnapsticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EAB1541333B006332E0 /* WebSnapsticle.h */; };
 		02780EB71541333B006332E0 /* WebSnapsticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EAC1541333B006332E0 /* WebSnapsticle.m */; };
-		02780EB81541333B006332E0 /* WebSnapsticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EAC1541333B006332E0 /* WebSnapsticle.m */; };
 		02780ECA15413358006332E0 /* GradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EB915413358006332E0 /* GradientView.h */; };
 		02780ECB15413358006332E0 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EBA15413358006332E0 /* GradientView.m */; };
-		02780ECC15413358006332E0 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EBA15413358006332E0 /* GradientView.m */; };
 		02780ECD15413358006332E0 /* HorizontalTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EBB15413358006332E0 /* HorizontalTableView.h */; };
 		02780ECE15413358006332E0 /* HorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EBC15413358006332E0 /* HorizontalTableView.m */; };
-		02780ECF15413358006332E0 /* HorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EBC15413358006332E0 /* HorizontalTableView.m */; };
 		02780ED015413358006332E0 /* ImageSpinnerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EBD15413358006332E0 /* ImageSpinnerView.h */; };
 		02780ED115413358006332E0 /* ImageSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EBE15413358006332E0 /* ImageSpinnerView.m */; };
-		02780ED215413358006332E0 /* ImageSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EBE15413358006332E0 /* ImageSpinnerView.m */; };
 		02780ED315413358006332E0 /* ImageViewCenteredFit.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EBF15413358006332E0 /* ImageViewCenteredFit.h */; };
 		02780ED415413358006332E0 /* ImageViewCenteredFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC015413358006332E0 /* ImageViewCenteredFit.m */; };
-		02780ED515413358006332E0 /* ImageViewCenteredFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC015413358006332E0 /* ImageViewCenteredFit.m */; };
 		02780ED615413358006332E0 /* LoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EC115413358006332E0 /* LoadingView.h */; };
 		02780ED715413358006332E0 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC215413358006332E0 /* LoadingView.m */; };
-		02780ED815413358006332E0 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC215413358006332E0 /* LoadingView.m */; };
-		02780ED915413358006332E0 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02780EC315413358006332E0 /* LoadingView.xib */; };
 		02780EDA15413358006332E0 /* RNTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EC415413358006332E0 /* RNTextView.h */; };
 		02780EDB15413358006332E0 /* RNTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC515413358006332E0 /* RNTextView.m */; };
-		02780EDC15413358006332E0 /* RNTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC515413358006332E0 /* RNTextView.m */; };
 		02780EDD15413358006332E0 /* TextFieldWithInset.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EC615413358006332E0 /* TextFieldWithInset.h */; };
 		02780EDE15413358006332E0 /* TextFieldWithInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC715413358006332E0 /* TextFieldWithInset.m */; };
-		02780EDF15413358006332E0 /* TextFieldWithInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC715413358006332E0 /* TextFieldWithInset.m */; };
 		02780EE015413358006332E0 /* YoutubeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EC815413358006332E0 /* YoutubeView.h */; };
 		02780EE115413358006332E0 /* YoutubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC915413358006332E0 /* YoutubeView.m */; };
-		02780EE215413358006332E0 /* YoutubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC915413358006332E0 /* YoutubeView.m */; };
 		02780EF315413370006332E0 /* NSArray+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EE315413370006332E0 /* NSArray+Additions.h */; };
 		02780EF415413370006332E0 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EE415413370006332E0 /* NSArray+Additions.m */; };
-		02780EF515413370006332E0 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EE415413370006332E0 /* NSArray+Additions.m */; };
 		02780EF615413370006332E0 /* NSArray+Reverse.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EE515413370006332E0 /* NSArray+Reverse.h */; };
 		02780EF715413370006332E0 /* NSArray+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EE615413370006332E0 /* NSArray+Reverse.m */; };
-		02780EF815413370006332E0 /* NSArray+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EE615413370006332E0 /* NSArray+Reverse.m */; };
 		02780EF915413370006332E0 /* NSDate+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EE715413370006332E0 /* NSDate+Additions.h */; };
 		02780EFA15413370006332E0 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EE815413370006332E0 /* NSDate+Additions.m */; };
-		02780EFB15413370006332E0 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EE815413370006332E0 /* NSDate+Additions.m */; };
 		02780EFC15413370006332E0 /* NSDate+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EE915413370006332E0 /* NSDate+Utilities.h */; };
 		02780EFD15413370006332E0 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EEA15413370006332E0 /* NSDate+Utilities.m */; };
-		02780EFE15413370006332E0 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EEA15413370006332E0 /* NSDate+Utilities.m */; };
 		02780EFF15413370006332E0 /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EEB15413370006332E0 /* NSString+Additions.h */; };
 		02780F0015413370006332E0 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EEC15413370006332E0 /* NSString+Additions.m */; };
-		02780F0115413370006332E0 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EEC15413370006332E0 /* NSString+Additions.m */; };
 		02780F0215413370006332E0 /* UIColor+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EED15413370006332E0 /* UIColor+Additions.h */; };
 		02780F0315413370006332E0 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EEE15413370006332E0 /* UIColor+Additions.m */; };
-		02780F0415413370006332E0 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EEE15413370006332E0 /* UIColor+Additions.m */; };
 		02780F0515413370006332E0 /* UIImage+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EEF15413370006332E0 /* UIImage+Additions.h */; };
 		02780F0615413370006332E0 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EF015413370006332E0 /* UIImage+Additions.m */; };
-		02780F0715413370006332E0 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EF015413370006332E0 /* UIImage+Additions.m */; };
 		02780F0815413370006332E0 /* UIView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EF115413370006332E0 /* UIView+Additions.h */; };
 		02780F0915413370006332E0 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EF215413370006332E0 /* UIView+Additions.m */; };
-		02780F0A15413370006332E0 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EF215413370006332E0 /* UIView+Additions.m */; };
-		02780F1815413979006332E0 /* RFLibrariesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780F1715413979006332E0 /* RFLibrariesTests.m */; };
-		02780F1A15413987006332E0 /* RFLibrariesTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02780F1915413987006332E0 /* RFLibrariesTests-Info.plist */; };
-		02780F1D1541398D006332E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02780F1B1541398D006332E0 /* InfoPlist.strings */; };
 		02780F4115413CCA006332E0 /* BorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780F3F15413CCA006332E0 /* BorderView.h */; };
 		02780F4215413CCA006332E0 /* BorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780F4015413CCA006332E0 /* BorderView.m */; };
 		029B447315412BD500D0E250 /* RFLibraries-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 029B447215412BD500D0E250 /* RFLibraries-Prefix.pch */; };
 		02E07139154094FE00BF4BCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07138154094FE00BF4BCE /* Foundation.framework */; };
-		02E07147154094FE00BF4BCE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07146154094FE00BF4BCE /* SenTestingKit.framework */; };
-		02E07149154094FE00BF4BCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07148154094FE00BF4BCE /* UIKit.framework */; };
-		02E0714A154094FE00BF4BCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07138154094FE00BF4BCE /* Foundation.framework */; };
-		02E0714D154094FE00BF4BCE /* libRFLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07135154094FE00BF4BCE /* libRFLibrary.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		02E0714B154094FE00BF4BCE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 02E0712C154094FE00BF4BCE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 02E07134154094FE00BF4BCE;
-			remoteInfo = RFLibraries;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02780EA41541333B006332E0 /* CoreGraphics+DDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreGraphics+DDAdditions.h"; path = "RFLibrary/CoreGraphics+DDAdditions.h"; sourceTree = SOURCE_ROOT; };
@@ -134,16 +97,11 @@
 		02780EF015413370006332E0 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Additions.m"; path = "RFLibrary/UIImage+Additions.m"; sourceTree = SOURCE_ROOT; };
 		02780EF115413370006332E0 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Additions.h"; path = "RFLibrary/UIView+Additions.h"; sourceTree = SOURCE_ROOT; };
 		02780EF215413370006332E0 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Additions.m"; path = "RFLibrary/UIView+Additions.m"; sourceTree = SOURCE_ROOT; };
-		02780F1615413979006332E0 /* RFLibrariesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFLibrariesTests.h; path = RFLibraryTests/RFLibrariesTests.h; sourceTree = SOURCE_ROOT; };
-		02780F1715413979006332E0 /* RFLibrariesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFLibrariesTests.m; path = RFLibraryTests/RFLibrariesTests.m; sourceTree = SOURCE_ROOT; };
-		02780F1915413987006332E0 /* RFLibrariesTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "RFLibrariesTests-Info.plist"; path = "RFLibraryTests/RFLibrariesTests-Info.plist"; sourceTree = SOURCE_ROOT; };
-		02780F1C1541398D006332E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = RFLibraryTests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		02780F3F15413CCA006332E0 /* BorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BorderView.h; path = RFLibrary/BorderView.h; sourceTree = SOURCE_ROOT; };
 		02780F4015413CCA006332E0 /* BorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BorderView.m; path = RFLibrary/BorderView.m; sourceTree = SOURCE_ROOT; };
 		029B447215412BD500D0E250 /* RFLibraries-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RFLibraries-Prefix.pch"; path = "RFLibrary/RFLibraries-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		02E07135154094FE00BF4BCE /* libRFLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRFLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E07138154094FE00BF4BCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		02E07145154094FE00BF4BCE /* RFLibrariesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RFLibrariesTests.octest; path = RFLibraryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E07146154094FE00BF4BCE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		02E07148154094FE00BF4BCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -157,17 +115,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		02E07141154094FE00BF4BCE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02E07147154094FE00BF4BCE /* SenTestingKit.framework in Frameworks */,
-				02E07149154094FE00BF4BCE /* UIKit.framework in Frameworks */,
-				02E0714A154094FE00BF4BCE /* Foundation.framework in Frameworks */,
-				02E0714D154094FE00BF4BCE /* libRFLibrary.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -175,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				02E0713A154094FE00BF4BCE /* RFLibraries */,
-				02E0714E154094FE00BF4BCE /* RFLibrariesTests */,
 				02E07137154094FE00BF4BCE /* Frameworks */,
 				02E07136154094FE00BF4BCE /* Products */,
 			);
@@ -185,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				02E07135154094FE00BF4BCE /* libRFLibrary.a */,
-				02E07145154094FE00BF4BCE /* RFLibrariesTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,25 +160,6 @@
 			isa = PBXGroup;
 			children = (
 				029B447215412BD500D0E250 /* RFLibraries-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		02E0714E154094FE00BF4BCE /* RFLibrariesTests */ = {
-			isa = PBXGroup;
-			children = (
-				02780F1615413979006332E0 /* RFLibrariesTests.h */,
-				02780F1715413979006332E0 /* RFLibrariesTests.m */,
-				02E0714F154094FE00BF4BCE /* Supporting Files */,
-			);
-			path = RFLibrariesTests;
-			sourceTree = "<group>";
-		};
-		02E0714F154094FE00BF4BCE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				02780F1B1541398D006332E0 /* InfoPlist.strings */,
-				02780F1915413987006332E0 /* RFLibrariesTests-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -357,25 +283,6 @@
 			productReference = 02E07135154094FE00BF4BCE /* libRFLibrary.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		02E07144154094FE00BF4BCE /* RFLibraryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 02E0715C154094FE00BF4BCE /* Build configuration list for PBXNativeTarget "RFLibraryTests" */;
-			buildPhases = (
-				02E07140154094FE00BF4BCE /* Sources */,
-				02E07141154094FE00BF4BCE /* Frameworks */,
-				02E07142154094FE00BF4BCE /* Resources */,
-				02E07143154094FE00BF4BCE /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				02E0714C154094FE00BF4BCE /* PBXTargetDependency */,
-			);
-			name = RFLibraryTests;
-			productName = RFLibrariesTests;
-			productReference = 02E07145154094FE00BF4BCE /* RFLibrariesTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -398,39 +305,9 @@
 			projectRoot = "";
 			targets = (
 				02E07134154094FE00BF4BCE /* RFLibrary */,
-				02E07144154094FE00BF4BCE /* RFLibraryTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		02E07142154094FE00BF4BCE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02780ED915413358006332E0 /* LoadingView.xib in Resources */,
-				02780F1A15413987006332E0 /* RFLibrariesTests-Info.plist in Resources */,
-				02780F1D1541398D006332E0 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		02E07143154094FE00BF4BCE /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02E07131154094FE00BF4BCE /* Sources */ = {
@@ -460,53 +337,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		02E07140154094FE00BF4BCE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02780EB11541333B006332E0 /* ISO8601DateFormatter.m in Sources */,
-				02780EB41541333B006332E0 /* Reachability.m in Sources */,
-				02780EB81541333B006332E0 /* WebSnapsticle.m in Sources */,
-				02780ECC15413358006332E0 /* GradientView.m in Sources */,
-				02780ECF15413358006332E0 /* HorizontalTableView.m in Sources */,
-				02780ED215413358006332E0 /* ImageSpinnerView.m in Sources */,
-				02780ED515413358006332E0 /* ImageViewCenteredFit.m in Sources */,
-				02780ED815413358006332E0 /* LoadingView.m in Sources */,
-				02780EDC15413358006332E0 /* RNTextView.m in Sources */,
-				02780EDF15413358006332E0 /* TextFieldWithInset.m in Sources */,
-				02780EE215413358006332E0 /* YoutubeView.m in Sources */,
-				02780EF515413370006332E0 /* NSArray+Additions.m in Sources */,
-				02780EF815413370006332E0 /* NSArray+Reverse.m in Sources */,
-				02780EFB15413370006332E0 /* NSDate+Additions.m in Sources */,
-				02780EFE15413370006332E0 /* NSDate+Utilities.m in Sources */,
-				02780F0115413370006332E0 /* NSString+Additions.m in Sources */,
-				02780F0415413370006332E0 /* UIColor+Additions.m in Sources */,
-				02780F0715413370006332E0 /* UIImage+Additions.m in Sources */,
-				02780F0A15413370006332E0 /* UIView+Additions.m in Sources */,
-				02780F1815413979006332E0 /* RFLibrariesTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		02E0714C154094FE00BF4BCE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 02E07134154094FE00BF4BCE /* RFLibrary */;
-			targetProxy = 02E0714B154094FE00BF4BCE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		02780F1B1541398D006332E0 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02780F1C1541398D006332E0 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		02E07157154094FE00BF4BCE /* Debug */ = {
@@ -575,36 +406,6 @@
 			};
 			name = Release;
 		};
-		02E0715D154094FE00BF4BCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RFLibraries/RFLibraries-Prefix.pch";
-				INFOPLIST_FILE = "RFLibrariesTests/RFLibrariesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		02E0715E154094FE00BF4BCE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RFLibraries/RFLibraries-Prefix.pch";
-				INFOPLIST_FILE = "RFLibrariesTests/RFLibrariesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -622,15 +423,6 @@
 			buildConfigurations = (
 				02E0715A154094FE00BF4BCE /* Debug */,
 				02E0715B154094FE00BF4BCE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		02E0715C154094FE00BF4BCE /* Build configuration list for PBXNativeTarget "RFLibraryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				02E0715D154094FE00BF4BCE /* Debug */,
-				02E0715E154094FE00BF4BCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
