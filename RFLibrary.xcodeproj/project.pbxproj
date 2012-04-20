@@ -71,14 +71,15 @@
 		02780F0815413370006332E0 /* UIView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EF115413370006332E0 /* UIView+Additions.h */; };
 		02780F0915413370006332E0 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EF215413370006332E0 /* UIView+Additions.m */; };
 		02780F0A15413370006332E0 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EF215413370006332E0 /* UIView+Additions.m */; };
+		02780F1815413979006332E0 /* RFLibrariesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780F1715413979006332E0 /* RFLibrariesTests.m */; };
+		02780F1A15413987006332E0 /* RFLibrariesTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02780F1915413987006332E0 /* RFLibrariesTests-Info.plist */; };
+		02780F1D1541398D006332E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02780F1B1541398D006332E0 /* InfoPlist.strings */; };
 		029B447315412BD500D0E250 /* RFLibraries-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 029B447215412BD500D0E250 /* RFLibraries-Prefix.pch */; };
 		02E07139154094FE00BF4BCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07138154094FE00BF4BCE /* Foundation.framework */; };
 		02E07147154094FE00BF4BCE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07146154094FE00BF4BCE /* SenTestingKit.framework */; };
 		02E07149154094FE00BF4BCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07148154094FE00BF4BCE /* UIKit.framework */; };
 		02E0714A154094FE00BF4BCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07138154094FE00BF4BCE /* Foundation.framework */; };
-		02E0714D154094FE00BF4BCE /* libRFLibraries.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07135154094FE00BF4BCE /* libRFLibraries.a */; };
-		02E07153154094FE00BF4BCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02E07151154094FE00BF4BCE /* InfoPlist.strings */; };
-		02E07156154094FE00BF4BCE /* RFLibrariesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E07155154094FE00BF4BCE /* RFLibrariesTests.m */; };
+		02E0714D154094FE00BF4BCE /* libRFLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07135154094FE00BF4BCE /* libRFLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,16 +137,16 @@
 		02780EF015413370006332E0 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Additions.m"; path = "RFLibrary/UIImage+Additions.m"; sourceTree = SOURCE_ROOT; };
 		02780EF115413370006332E0 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Additions.h"; path = "RFLibrary/UIView+Additions.h"; sourceTree = SOURCE_ROOT; };
 		02780EF215413370006332E0 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Additions.m"; path = "RFLibrary/UIView+Additions.m"; sourceTree = SOURCE_ROOT; };
+		02780F1615413979006332E0 /* RFLibrariesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFLibrariesTests.h; path = RFLibraryTests/RFLibrariesTests.h; sourceTree = SOURCE_ROOT; };
+		02780F1715413979006332E0 /* RFLibrariesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFLibrariesTests.m; path = RFLibraryTests/RFLibrariesTests.m; sourceTree = SOURCE_ROOT; };
+		02780F1915413987006332E0 /* RFLibrariesTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "RFLibrariesTests-Info.plist"; path = "RFLibraryTests/RFLibrariesTests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		02780F1C1541398D006332E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = RFLibraryTests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		029B447215412BD500D0E250 /* RFLibraries-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RFLibraries-Prefix.pch"; path = "RFLibrary/RFLibraries-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		02E07135154094FE00BF4BCE /* libRFLibraries.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRFLibraries.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E07135154094FE00BF4BCE /* libRFLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRFLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E07138154094FE00BF4BCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		02E07145154094FE00BF4BCE /* RFLibrariesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFLibrariesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E07146154094FE00BF4BCE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		02E07148154094FE00BF4BCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		02E07150154094FE00BF4BCE /* RFLibrariesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RFLibrariesTests-Info.plist"; sourceTree = "<group>"; };
-		02E07152154094FE00BF4BCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		02E07154154094FE00BF4BCE /* RFLibrariesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFLibrariesTests.h; sourceTree = "<group>"; };
-		02E07155154094FE00BF4BCE /* RFLibrariesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFLibrariesTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +165,7 @@
 				02E07147154094FE00BF4BCE /* SenTestingKit.framework in Frameworks */,
 				02E07149154094FE00BF4BCE /* UIKit.framework in Frameworks */,
 				02E0714A154094FE00BF4BCE /* Foundation.framework in Frameworks */,
-				02E0714D154094FE00BF4BCE /* libRFLibraries.a in Frameworks */,
+				02E0714D154094FE00BF4BCE /* libRFLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +185,7 @@
 		02E07136154094FE00BF4BCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02E07135154094FE00BF4BCE /* libRFLibraries.a */,
+				02E07135154094FE00BF4BCE /* libRFLibrary.a */,
 				02E07145154094FE00BF4BCE /* RFLibrariesTests.octest */,
 			);
 			name = Products;
@@ -222,8 +223,8 @@
 		02E0714E154094FE00BF4BCE /* RFLibrariesTests */ = {
 			isa = PBXGroup;
 			children = (
-				02E07154154094FE00BF4BCE /* RFLibrariesTests.h */,
-				02E07155154094FE00BF4BCE /* RFLibrariesTests.m */,
+				02780F1615413979006332E0 /* RFLibrariesTests.h */,
+				02780F1715413979006332E0 /* RFLibrariesTests.m */,
 				02E0714F154094FE00BF4BCE /* Supporting Files */,
 			);
 			path = RFLibrariesTests;
@@ -232,8 +233,8 @@
 		02E0714F154094FE00BF4BCE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				02E07150154094FE00BF4BCE /* RFLibrariesTests-Info.plist */,
-				02E07151154094FE00BF4BCE /* InfoPlist.strings */,
+				02780F1B1541398D006332E0 /* InfoPlist.strings */,
+				02780F1915413987006332E0 /* RFLibrariesTests-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -340,9 +341,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		02E07134154094FE00BF4BCE /* RFLibraries */ = {
+		02E07134154094FE00BF4BCE /* RFLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02E07159154094FE00BF4BCE /* Build configuration list for PBXNativeTarget "RFLibraries" */;
+			buildConfigurationList = 02E07159154094FE00BF4BCE /* Build configuration list for PBXNativeTarget "RFLibrary" */;
 			buildPhases = (
 				02E07131154094FE00BF4BCE /* Sources */,
 				02E07132154094FE00BF4BCE /* Frameworks */,
@@ -352,14 +353,14 @@
 			);
 			dependencies = (
 			);
-			name = RFLibraries;
+			name = RFLibrary;
 			productName = RFLibraries;
-			productReference = 02E07135154094FE00BF4BCE /* libRFLibraries.a */;
+			productReference = 02E07135154094FE00BF4BCE /* libRFLibrary.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		02E07144154094FE00BF4BCE /* RFLibrariesTests */ = {
+		02E07144154094FE00BF4BCE /* RFLibraryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02E0715C154094FE00BF4BCE /* Build configuration list for PBXNativeTarget "RFLibrariesTests" */;
+			buildConfigurationList = 02E0715C154094FE00BF4BCE /* Build configuration list for PBXNativeTarget "RFLibraryTests" */;
 			buildPhases = (
 				02E07140154094FE00BF4BCE /* Sources */,
 				02E07141154094FE00BF4BCE /* Frameworks */,
@@ -371,7 +372,7 @@
 			dependencies = (
 				02E0714C154094FE00BF4BCE /* PBXTargetDependency */,
 			);
-			name = RFLibrariesTests;
+			name = RFLibraryTests;
 			productName = RFLibrariesTests;
 			productReference = 02E07145154094FE00BF4BCE /* RFLibrariesTests.octest */;
 			productType = "com.apple.product-type.bundle";
@@ -385,7 +386,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = Itv;
 			};
-			buildConfigurationList = 02E0712F154094FE00BF4BCE /* Build configuration list for PBXProject "RFLibraries" */;
+			buildConfigurationList = 02E0712F154094FE00BF4BCE /* Build configuration list for PBXProject "RFLibrary" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -397,8 +398,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				02E07134154094FE00BF4BCE /* RFLibraries */,
-				02E07144154094FE00BF4BCE /* RFLibrariesTests */,
+				02E07134154094FE00BF4BCE /* RFLibrary */,
+				02E07144154094FE00BF4BCE /* RFLibraryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -408,8 +409,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02E07153154094FE00BF4BCE /* InfoPlist.strings in Resources */,
 				02780ED915413358006332E0 /* LoadingView.xib in Resources */,
+				02780F1A15413987006332E0 /* RFLibrariesTests-Info.plist in Resources */,
+				02780F1D1541398D006332E0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +465,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02E07156154094FE00BF4BCE /* RFLibrariesTests.m in Sources */,
 				02780EA3154132FB006332E0 /* BorderView.m in Sources */,
 				02780EB11541333B006332E0 /* ISO8601DateFormatter.m in Sources */,
 				02780EB41541333B006332E0 /* Reachability.m in Sources */,
@@ -484,6 +485,7 @@
 				02780F0415413370006332E0 /* UIColor+Additions.m in Sources */,
 				02780F0715413370006332E0 /* UIImage+Additions.m in Sources */,
 				02780F0A15413370006332E0 /* UIView+Additions.m in Sources */,
+				02780F1815413979006332E0 /* RFLibrariesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,16 +494,16 @@
 /* Begin PBXTargetDependency section */
 		02E0714C154094FE00BF4BCE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 02E07134154094FE00BF4BCE /* RFLibraries */;
+			target = 02E07134154094FE00BF4BCE /* RFLibrary */;
 			targetProxy = 02E0714B154094FE00BF4BCE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		02E07151154094FE00BF4BCE /* InfoPlist.strings */ = {
+		02780F1B1541398D006332E0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				02E07152154094FE00BF4BCE /* en */,
+				02780F1C1541398D006332E0 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -608,7 +610,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02E0712F154094FE00BF4BCE /* Build configuration list for PBXProject "RFLibraries" */ = {
+		02E0712F154094FE00BF4BCE /* Build configuration list for PBXProject "RFLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02E07157154094FE00BF4BCE /* Debug */,
@@ -617,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02E07159154094FE00BF4BCE /* Build configuration list for PBXNativeTarget "RFLibraries" */ = {
+		02E07159154094FE00BF4BCE /* Build configuration list for PBXNativeTarget "RFLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02E0715A154094FE00BF4BCE /* Debug */,
@@ -626,7 +628,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02E0715C154094FE00BF4BCE /* Build configuration list for PBXNativeTarget "RFLibrariesTests" */ = {
+		02E0715C154094FE00BF4BCE /* Build configuration list for PBXNativeTarget "RFLibraryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02E0715D154094FE00BF4BCE /* Debug */,
