@@ -7,74 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02780EA1154132FB006332E0 /* BorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780E9F154132FB006332E0 /* BorderView.h */; };
+		02780EA2154132FB006332E0 /* BorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EA0154132FB006332E0 /* BorderView.m */; };
+		02780EA3154132FB006332E0 /* BorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EA0154132FB006332E0 /* BorderView.m */; };
+		02780EAD1541333B006332E0 /* CoreGraphics+DDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA41541333B006332E0 /* CoreGraphics+DDAdditions.h */; };
+		02780EAE1541333B006332E0 /* CoreGraphics+TVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA51541333B006332E0 /* CoreGraphics+TVAdditions.h */; };
+		02780EAF1541333B006332E0 /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA61541333B006332E0 /* ISO8601DateFormatter.h */; };
+		02780EB01541333B006332E0 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EA71541333B006332E0 /* ISO8601DateFormatter.m */; };
+		02780EB11541333B006332E0 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EA71541333B006332E0 /* ISO8601DateFormatter.m */; };
+		02780EB21541333B006332E0 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA81541333B006332E0 /* Reachability.h */; };
+		02780EB31541333B006332E0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EA91541333B006332E0 /* Reachability.m */; };
+		02780EB41541333B006332E0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EA91541333B006332E0 /* Reachability.m */; };
+		02780EB51541333B006332E0 /* RFMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EAA1541333B006332E0 /* RFMacros.h */; };
+		02780EB61541333B006332E0 /* WebSnapsticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EAB1541333B006332E0 /* WebSnapsticle.h */; };
+		02780EB71541333B006332E0 /* WebSnapsticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EAC1541333B006332E0 /* WebSnapsticle.m */; };
+		02780EB81541333B006332E0 /* WebSnapsticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EAC1541333B006332E0 /* WebSnapsticle.m */; };
+		02780ECA15413358006332E0 /* GradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EB915413358006332E0 /* GradientView.h */; };
+		02780ECB15413358006332E0 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EBA15413358006332E0 /* GradientView.m */; };
+		02780ECC15413358006332E0 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EBA15413358006332E0 /* GradientView.m */; };
+		02780ECD15413358006332E0 /* HorizontalTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EBB15413358006332E0 /* HorizontalTableView.h */; };
+		02780ECE15413358006332E0 /* HorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EBC15413358006332E0 /* HorizontalTableView.m */; };
+		02780ECF15413358006332E0 /* HorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EBC15413358006332E0 /* HorizontalTableView.m */; };
+		02780ED015413358006332E0 /* ImageSpinnerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EBD15413358006332E0 /* ImageSpinnerView.h */; };
+		02780ED115413358006332E0 /* ImageSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EBE15413358006332E0 /* ImageSpinnerView.m */; };
+		02780ED215413358006332E0 /* ImageSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EBE15413358006332E0 /* ImageSpinnerView.m */; };
+		02780ED315413358006332E0 /* ImageViewCenteredFit.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EBF15413358006332E0 /* ImageViewCenteredFit.h */; };
+		02780ED415413358006332E0 /* ImageViewCenteredFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC015413358006332E0 /* ImageViewCenteredFit.m */; };
+		02780ED515413358006332E0 /* ImageViewCenteredFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC015413358006332E0 /* ImageViewCenteredFit.m */; };
+		02780ED615413358006332E0 /* LoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EC115413358006332E0 /* LoadingView.h */; };
+		02780ED715413358006332E0 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC215413358006332E0 /* LoadingView.m */; };
+		02780ED815413358006332E0 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC215413358006332E0 /* LoadingView.m */; };
+		02780ED915413358006332E0 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02780EC315413358006332E0 /* LoadingView.xib */; };
+		02780EDA15413358006332E0 /* RNTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EC415413358006332E0 /* RNTextView.h */; };
+		02780EDB15413358006332E0 /* RNTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC515413358006332E0 /* RNTextView.m */; };
+		02780EDC15413358006332E0 /* RNTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC515413358006332E0 /* RNTextView.m */; };
+		02780EDD15413358006332E0 /* TextFieldWithInset.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EC615413358006332E0 /* TextFieldWithInset.h */; };
+		02780EDE15413358006332E0 /* TextFieldWithInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC715413358006332E0 /* TextFieldWithInset.m */; };
+		02780EDF15413358006332E0 /* TextFieldWithInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC715413358006332E0 /* TextFieldWithInset.m */; };
+		02780EE015413358006332E0 /* YoutubeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EC815413358006332E0 /* YoutubeView.h */; };
+		02780EE115413358006332E0 /* YoutubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC915413358006332E0 /* YoutubeView.m */; };
+		02780EE215413358006332E0 /* YoutubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EC915413358006332E0 /* YoutubeView.m */; };
+		02780EF315413370006332E0 /* NSArray+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EE315413370006332E0 /* NSArray+Additions.h */; };
+		02780EF415413370006332E0 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EE415413370006332E0 /* NSArray+Additions.m */; };
+		02780EF515413370006332E0 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EE415413370006332E0 /* NSArray+Additions.m */; };
+		02780EF615413370006332E0 /* NSArray+Reverse.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EE515413370006332E0 /* NSArray+Reverse.h */; };
+		02780EF715413370006332E0 /* NSArray+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EE615413370006332E0 /* NSArray+Reverse.m */; };
+		02780EF815413370006332E0 /* NSArray+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EE615413370006332E0 /* NSArray+Reverse.m */; };
+		02780EF915413370006332E0 /* NSDate+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EE715413370006332E0 /* NSDate+Additions.h */; };
+		02780EFA15413370006332E0 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EE815413370006332E0 /* NSDate+Additions.m */; };
+		02780EFB15413370006332E0 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EE815413370006332E0 /* NSDate+Additions.m */; };
+		02780EFC15413370006332E0 /* NSDate+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EE915413370006332E0 /* NSDate+Utilities.h */; };
+		02780EFD15413370006332E0 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EEA15413370006332E0 /* NSDate+Utilities.m */; };
+		02780EFE15413370006332E0 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EEA15413370006332E0 /* NSDate+Utilities.m */; };
+		02780EFF15413370006332E0 /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EEB15413370006332E0 /* NSString+Additions.h */; };
+		02780F0015413370006332E0 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EEC15413370006332E0 /* NSString+Additions.m */; };
+		02780F0115413370006332E0 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EEC15413370006332E0 /* NSString+Additions.m */; };
+		02780F0215413370006332E0 /* UIColor+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EED15413370006332E0 /* UIColor+Additions.h */; };
+		02780F0315413370006332E0 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EEE15413370006332E0 /* UIColor+Additions.m */; };
+		02780F0415413370006332E0 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EEE15413370006332E0 /* UIColor+Additions.m */; };
+		02780F0515413370006332E0 /* UIImage+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EEF15413370006332E0 /* UIImage+Additions.h */; };
+		02780F0615413370006332E0 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EF015413370006332E0 /* UIImage+Additions.m */; };
+		02780F0715413370006332E0 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EF015413370006332E0 /* UIImage+Additions.m */; };
+		02780F0815413370006332E0 /* UIView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EF115413370006332E0 /* UIView+Additions.h */; };
+		02780F0915413370006332E0 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EF215413370006332E0 /* UIView+Additions.m */; };
+		02780F0A15413370006332E0 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EF215413370006332E0 /* UIView+Additions.m */; };
 		029B447315412BD500D0E250 /* RFLibraries-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 029B447215412BD500D0E250 /* RFLibraries-Prefix.pch */; };
-		029B448D15412C7100D0E250 /* RFMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B448815412C7100D0E250 /* RFMacros.h */; };
-		029B448E15412C7100D0E250 /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B448915412C7100D0E250 /* ISO8601DateFormatter.h */; };
-		029B448F15412C7100D0E250 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B448A15412C7100D0E250 /* ISO8601DateFormatter.m */; };
-		029B449015412C7100D0E250 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B448A15412C7100D0E250 /* ISO8601DateFormatter.m */; };
-		029B449115412C7100D0E250 /* WebSnapsticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B448B15412C7100D0E250 /* WebSnapsticle.h */; };
-		029B449215412C7100D0E250 /* WebSnapsticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B448C15412C7100D0E250 /* WebSnapsticle.m */; };
-		029B449315412C7100D0E250 /* WebSnapsticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B448C15412C7100D0E250 /* WebSnapsticle.m */; };
-		029B44A615412C8900D0E250 /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B449415412C8900D0E250 /* NSString+Additions.h */; };
-		029B44A715412C8900D0E250 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B449515412C8900D0E250 /* NSString+Additions.m */; };
-		029B44A815412C8900D0E250 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B449515412C8900D0E250 /* NSString+Additions.m */; };
-		029B44A915412C8900D0E250 /* UIColor+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B449615412C8900D0E250 /* UIColor+Additions.h */; };
-		029B44AA15412C8900D0E250 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B449715412C8900D0E250 /* UIColor+Additions.m */; };
-		029B44AB15412C8900D0E250 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B449715412C8900D0E250 /* UIColor+Additions.m */; };
-		029B44AC15412C8900D0E250 /* CoreGraphics+DDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B449815412C8900D0E250 /* CoreGraphics+DDAdditions.h */; };
-		029B44AD15412C8900D0E250 /* CoreGraphics+TVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B449915412C8900D0E250 /* CoreGraphics+TVAdditions.h */; };
-		029B44AE15412C8900D0E250 /* NSArray+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B449A15412C8900D0E250 /* NSArray+Additions.h */; };
-		029B44AF15412C8900D0E250 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B449B15412C8900D0E250 /* NSArray+Additions.m */; };
-		029B44B015412C8900D0E250 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B449B15412C8900D0E250 /* NSArray+Additions.m */; };
-		029B44B115412C8900D0E250 /* NSArray+Reverse.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B449C15412C8900D0E250 /* NSArray+Reverse.h */; };
-		029B44B215412C8900D0E250 /* NSArray+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B449D15412C8900D0E250 /* NSArray+Reverse.m */; };
-		029B44B315412C8900D0E250 /* NSArray+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B449D15412C8900D0E250 /* NSArray+Reverse.m */; };
-		029B44B415412C8900D0E250 /* NSDate+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B449E15412C8900D0E250 /* NSDate+Additions.h */; };
-		029B44B515412C8900D0E250 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B449F15412C8900D0E250 /* NSDate+Additions.m */; };
-		029B44B615412C8900D0E250 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B449F15412C8900D0E250 /* NSDate+Additions.m */; };
-		029B44B715412C8900D0E250 /* NSDate+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B44A015412C8900D0E250 /* NSDate+Utilities.h */; };
-		029B44B815412C8900D0E250 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44A115412C8900D0E250 /* NSDate+Utilities.m */; };
-		029B44B915412C8900D0E250 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44A115412C8900D0E250 /* NSDate+Utilities.m */; };
-		029B44BA15412C8900D0E250 /* UIView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B44A215412C8900D0E250 /* UIView+Additions.h */; };
-		029B44BB15412C8900D0E250 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44A315412C8900D0E250 /* UIView+Additions.m */; };
-		029B44BC15412C8900D0E250 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44A315412C8900D0E250 /* UIView+Additions.m */; };
-		029B44BD15412C8900D0E250 /* UIImage+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B44A415412C8900D0E250 /* UIImage+Additions.h */; };
-		029B44BE15412C8900D0E250 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44A515412C8900D0E250 /* UIImage+Additions.m */; };
-		029B44BF15412C8900D0E250 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44A515412C8900D0E250 /* UIImage+Additions.m */; };
-		029B44D315412C9600D0E250 /* ImageViewCenteredFit.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B44C015412C9600D0E250 /* ImageViewCenteredFit.h */; };
-		029B44D415412C9600D0E250 /* ImageViewCenteredFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44C115412C9600D0E250 /* ImageViewCenteredFit.m */; };
-		029B44D515412C9600D0E250 /* ImageViewCenteredFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44C115412C9600D0E250 /* ImageViewCenteredFit.m */; };
-		029B44D615412C9600D0E250 /* LoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B44C215412C9600D0E250 /* LoadingView.h */; };
-		029B44D715412C9600D0E250 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44C315412C9600D0E250 /* LoadingView.m */; };
-		029B44D815412C9600D0E250 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44C315412C9600D0E250 /* LoadingView.m */; };
-		029B44D915412C9600D0E250 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 029B44C415412C9600D0E250 /* LoadingView.xib */; };
-		029B44DA15412C9600D0E250 /* RNTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B44C515412C9600D0E250 /* RNTextView.h */; };
-		029B44DB15412C9600D0E250 /* RNTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44C615412C9600D0E250 /* RNTextView.m */; };
-		029B44DC15412C9600D0E250 /* RNTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44C615412C9600D0E250 /* RNTextView.m */; };
-		029B44DD15412C9600D0E250 /* GradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B44C715412C9600D0E250 /* GradientView.h */; };
-		029B44DE15412C9600D0E250 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44C815412C9600D0E250 /* GradientView.m */; };
-		029B44DF15412C9600D0E250 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44C815412C9600D0E250 /* GradientView.m */; };
-		029B44E015412C9600D0E250 /* BorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B44C915412C9600D0E250 /* BorderView.h */; };
-		029B44E115412C9600D0E250 /* BorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44CA15412C9600D0E250 /* BorderView.m */; };
-		029B44E215412C9600D0E250 /* BorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44CA15412C9600D0E250 /* BorderView.m */; };
-		029B44E315412C9600D0E250 /* YoutubeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B44CB15412C9600D0E250 /* YoutubeView.h */; };
-		029B44E415412C9600D0E250 /* YoutubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44CC15412C9600D0E250 /* YoutubeView.m */; };
-		029B44E515412C9600D0E250 /* YoutubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44CC15412C9600D0E250 /* YoutubeView.m */; };
-		029B44E615412C9600D0E250 /* HorizontalTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B44CD15412C9600D0E250 /* HorizontalTableView.h */; };
-		029B44E715412C9600D0E250 /* HorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44CE15412C9600D0E250 /* HorizontalTableView.m */; };
-		029B44E815412C9600D0E250 /* HorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44CE15412C9600D0E250 /* HorizontalTableView.m */; };
-		029B44E915412C9600D0E250 /* ImageSpinnerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B44CF15412C9600D0E250 /* ImageSpinnerView.h */; };
-		029B44EA15412C9600D0E250 /* ImageSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44D015412C9600D0E250 /* ImageSpinnerView.m */; };
-		029B44EB15412C9600D0E250 /* ImageSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44D015412C9600D0E250 /* ImageSpinnerView.m */; };
-		029B44EC15412C9600D0E250 /* TextFieldWithInset.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B44D115412C9600D0E250 /* TextFieldWithInset.h */; };
-		029B44ED15412C9600D0E250 /* TextFieldWithInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44D215412C9600D0E250 /* TextFieldWithInset.m */; };
-		029B44EE15412C9600D0E250 /* TextFieldWithInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44D215412C9600D0E250 /* TextFieldWithInset.m */; };
-		029B44F115412CA000D0E250 /* NSTimer+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B44EF15412CA000D0E250 /* NSTimer+Block.h */; };
-		029B44F215412CA000D0E250 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44F015412CA000D0E250 /* NSTimer+Block.m */; };
-		029B44F315412CA000D0E250 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44F015412CA000D0E250 /* NSTimer+Block.m */; };
-		029B44F615412CB700D0E250 /* UIAlertView+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B44F415412CB700D0E250 /* UIAlertView+Block.h */; };
-		029B44F715412CB700D0E250 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44F515412CB700D0E250 /* UIAlertView+Block.m */; };
-		029B44F815412CB700D0E250 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B44F515412CB700D0E250 /* UIAlertView+Block.m */; };
 		02E07139154094FE00BF4BCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07138154094FE00BF4BCE /* Foundation.framework */; };
 		02E07147154094FE00BF4BCE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07146154094FE00BF4BCE /* SenTestingKit.framework */; };
 		02E07149154094FE00BF4BCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07148154094FE00BF4BCE /* UIKit.framework */; };
@@ -95,53 +92,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02780E9F154132FB006332E0 /* BorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BorderView.h; path = RFLibrary/BorderView.h; sourceTree = SOURCE_ROOT; };
+		02780EA0154132FB006332E0 /* BorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BorderView.m; path = RFLibrary/BorderView.m; sourceTree = SOURCE_ROOT; };
+		02780EA41541333B006332E0 /* CoreGraphics+DDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreGraphics+DDAdditions.h"; path = "RFLibrary/CoreGraphics+DDAdditions.h"; sourceTree = SOURCE_ROOT; };
+		02780EA51541333B006332E0 /* CoreGraphics+TVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreGraphics+TVAdditions.h"; path = "RFLibrary/CoreGraphics+TVAdditions.h"; sourceTree = SOURCE_ROOT; };
+		02780EA61541333B006332E0 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISO8601DateFormatter.h; path = RFLibrary/ISO8601DateFormatter.h; sourceTree = SOURCE_ROOT; };
+		02780EA71541333B006332E0 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISO8601DateFormatter.m; path = RFLibrary/ISO8601DateFormatter.m; sourceTree = SOURCE_ROOT; };
+		02780EA81541333B006332E0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = RFLibrary/Reachability.h; sourceTree = SOURCE_ROOT; };
+		02780EA91541333B006332E0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = RFLibrary/Reachability.m; sourceTree = SOURCE_ROOT; };
+		02780EAA1541333B006332E0 /* RFMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFMacros.h; path = RFLibrary/RFMacros.h; sourceTree = SOURCE_ROOT; };
+		02780EAB1541333B006332E0 /* WebSnapsticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebSnapsticle.h; path = RFLibrary/WebSnapsticle.h; sourceTree = SOURCE_ROOT; };
+		02780EAC1541333B006332E0 /* WebSnapsticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebSnapsticle.m; path = RFLibrary/WebSnapsticle.m; sourceTree = SOURCE_ROOT; };
+		02780EB915413358006332E0 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GradientView.h; path = RFLibrary/GradientView.h; sourceTree = SOURCE_ROOT; };
+		02780EBA15413358006332E0 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GradientView.m; path = RFLibrary/GradientView.m; sourceTree = SOURCE_ROOT; };
+		02780EBB15413358006332E0 /* HorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HorizontalTableView.h; path = RFLibrary/HorizontalTableView.h; sourceTree = SOURCE_ROOT; };
+		02780EBC15413358006332E0 /* HorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HorizontalTableView.m; path = RFLibrary/HorizontalTableView.m; sourceTree = SOURCE_ROOT; };
+		02780EBD15413358006332E0 /* ImageSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageSpinnerView.h; path = RFLibrary/ImageSpinnerView.h; sourceTree = SOURCE_ROOT; };
+		02780EBE15413358006332E0 /* ImageSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageSpinnerView.m; path = RFLibrary/ImageSpinnerView.m; sourceTree = SOURCE_ROOT; };
+		02780EBF15413358006332E0 /* ImageViewCenteredFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewCenteredFit.h; path = RFLibrary/ImageViewCenteredFit.h; sourceTree = SOURCE_ROOT; };
+		02780EC015413358006332E0 /* ImageViewCenteredFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewCenteredFit.m; path = RFLibrary/ImageViewCenteredFit.m; sourceTree = SOURCE_ROOT; };
+		02780EC115413358006332E0 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingView.h; path = RFLibrary/LoadingView.h; sourceTree = SOURCE_ROOT; };
+		02780EC215413358006332E0 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingView.m; path = RFLibrary/LoadingView.m; sourceTree = SOURCE_ROOT; };
+		02780EC315413358006332E0 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoadingView.xib; path = RFLibrary/LoadingView.xib; sourceTree = SOURCE_ROOT; };
+		02780EC415413358006332E0 /* RNTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNTextView.h; path = RFLibrary/RNTextView.h; sourceTree = SOURCE_ROOT; };
+		02780EC515413358006332E0 /* RNTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNTextView.m; path = RFLibrary/RNTextView.m; sourceTree = SOURCE_ROOT; };
+		02780EC615413358006332E0 /* TextFieldWithInset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextFieldWithInset.h; path = RFLibrary/TextFieldWithInset.h; sourceTree = SOURCE_ROOT; };
+		02780EC715413358006332E0 /* TextFieldWithInset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextFieldWithInset.m; path = RFLibrary/TextFieldWithInset.m; sourceTree = SOURCE_ROOT; };
+		02780EC815413358006332E0 /* YoutubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YoutubeView.h; path = RFLibrary/YoutubeView.h; sourceTree = SOURCE_ROOT; };
+		02780EC915413358006332E0 /* YoutubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YoutubeView.m; path = RFLibrary/YoutubeView.m; sourceTree = SOURCE_ROOT; };
+		02780EE315413370006332E0 /* NSArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Additions.h"; path = "RFLibrary/NSArray+Additions.h"; sourceTree = SOURCE_ROOT; };
+		02780EE415413370006332E0 /* NSArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Additions.m"; path = "RFLibrary/NSArray+Additions.m"; sourceTree = SOURCE_ROOT; };
+		02780EE515413370006332E0 /* NSArray+Reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Reverse.h"; path = "RFLibrary/NSArray+Reverse.h"; sourceTree = SOURCE_ROOT; };
+		02780EE615413370006332E0 /* NSArray+Reverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Reverse.m"; path = "RFLibrary/NSArray+Reverse.m"; sourceTree = SOURCE_ROOT; };
+		02780EE715413370006332E0 /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Additions.h"; path = "RFLibrary/NSDate+Additions.h"; sourceTree = SOURCE_ROOT; };
+		02780EE815413370006332E0 /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Additions.m"; path = "RFLibrary/NSDate+Additions.m"; sourceTree = SOURCE_ROOT; };
+		02780EE915413370006332E0 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Utilities.h"; path = "RFLibrary/NSDate+Utilities.h"; sourceTree = SOURCE_ROOT; };
+		02780EEA15413370006332E0 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Utilities.m"; path = "RFLibrary/NSDate+Utilities.m"; sourceTree = SOURCE_ROOT; };
+		02780EEB15413370006332E0 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Additions.h"; path = "RFLibrary/NSString+Additions.h"; sourceTree = SOURCE_ROOT; };
+		02780EEC15413370006332E0 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Additions.m"; path = "RFLibrary/NSString+Additions.m"; sourceTree = SOURCE_ROOT; };
+		02780EED15413370006332E0 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Additions.h"; path = "RFLibrary/UIColor+Additions.h"; sourceTree = SOURCE_ROOT; };
+		02780EEE15413370006332E0 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Additions.m"; path = "RFLibrary/UIColor+Additions.m"; sourceTree = SOURCE_ROOT; };
+		02780EEF15413370006332E0 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Additions.h"; path = "RFLibrary/UIImage+Additions.h"; sourceTree = SOURCE_ROOT; };
+		02780EF015413370006332E0 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Additions.m"; path = "RFLibrary/UIImage+Additions.m"; sourceTree = SOURCE_ROOT; };
+		02780EF115413370006332E0 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Additions.h"; path = "RFLibrary/UIView+Additions.h"; sourceTree = SOURCE_ROOT; };
+		02780EF215413370006332E0 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Additions.m"; path = "RFLibrary/UIView+Additions.m"; sourceTree = SOURCE_ROOT; };
 		029B447215412BD500D0E250 /* RFLibraries-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RFLibraries-Prefix.pch"; path = "RFLibrary/RFLibraries-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		029B448815412C7100D0E250 /* RFMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFMacros.h; sourceTree = SOURCE_ROOT; };
-		029B448915412C7100D0E250 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = SOURCE_ROOT; };
-		029B448A15412C7100D0E250 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = SOURCE_ROOT; };
-		029B448B15412C7100D0E250 /* WebSnapsticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSnapsticle.h; sourceTree = SOURCE_ROOT; };
-		029B448C15412C7100D0E250 /* WebSnapsticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSnapsticle.m; sourceTree = SOURCE_ROOT; };
-		029B449415412C8900D0E250 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = SOURCE_ROOT; };
-		029B449515412C8900D0E250 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = SOURCE_ROOT; };
-		029B449615412C8900D0E250 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = SOURCE_ROOT; };
-		029B449715412C8900D0E250 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = SOURCE_ROOT; };
-		029B449815412C8900D0E250 /* CoreGraphics+DDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreGraphics+DDAdditions.h"; sourceTree = SOURCE_ROOT; };
-		029B449915412C8900D0E250 /* CoreGraphics+TVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreGraphics+TVAdditions.h"; sourceTree = SOURCE_ROOT; };
-		029B449A15412C8900D0E250 /* NSArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Additions.h"; sourceTree = SOURCE_ROOT; };
-		029B449B15412C8900D0E250 /* NSArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Additions.m"; sourceTree = SOURCE_ROOT; };
-		029B449C15412C8900D0E250 /* NSArray+Reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Reverse.h"; sourceTree = SOURCE_ROOT; };
-		029B449D15412C8900D0E250 /* NSArray+Reverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Reverse.m"; sourceTree = SOURCE_ROOT; };
-		029B449E15412C8900D0E250 /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Additions.h"; sourceTree = SOURCE_ROOT; };
-		029B449F15412C8900D0E250 /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Additions.m"; sourceTree = SOURCE_ROOT; };
-		029B44A015412C8900D0E250 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = SOURCE_ROOT; };
-		029B44A115412C8900D0E250 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = SOURCE_ROOT; };
-		029B44A215412C8900D0E250 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = SOURCE_ROOT; };
-		029B44A315412C8900D0E250 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = SOURCE_ROOT; };
-		029B44A415412C8900D0E250 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = SOURCE_ROOT; };
-		029B44A515412C8900D0E250 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = SOURCE_ROOT; };
-		029B44C015412C9600D0E250 /* ImageViewCenteredFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewCenteredFit.h; sourceTree = SOURCE_ROOT; };
-		029B44C115412C9600D0E250 /* ImageViewCenteredFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewCenteredFit.m; sourceTree = SOURCE_ROOT; };
-		029B44C215412C9600D0E250 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = SOURCE_ROOT; };
-		029B44C315412C9600D0E250 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = SOURCE_ROOT; };
-		029B44C415412C9600D0E250 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = SOURCE_ROOT; };
-		029B44C515412C9600D0E250 /* RNTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTextView.h; sourceTree = SOURCE_ROOT; };
-		029B44C615412C9600D0E250 /* RNTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTextView.m; sourceTree = SOURCE_ROOT; };
-		029B44C715412C9600D0E250 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = SOURCE_ROOT; };
-		029B44C815412C9600D0E250 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = SOURCE_ROOT; };
-		029B44C915412C9600D0E250 /* BorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderView.h; sourceTree = SOURCE_ROOT; };
-		029B44CA15412C9600D0E250 /* BorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderView.m; sourceTree = SOURCE_ROOT; };
-		029B44CB15412C9600D0E250 /* YoutubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeView.h; sourceTree = SOURCE_ROOT; };
-		029B44CC15412C9600D0E250 /* YoutubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeView.m; sourceTree = SOURCE_ROOT; };
-		029B44CD15412C9600D0E250 /* HorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalTableView.h; sourceTree = SOURCE_ROOT; };
-		029B44CE15412C9600D0E250 /* HorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalTableView.m; sourceTree = SOURCE_ROOT; };
-		029B44CF15412C9600D0E250 /* ImageSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSpinnerView.h; sourceTree = SOURCE_ROOT; };
-		029B44D015412C9600D0E250 /* ImageSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSpinnerView.m; sourceTree = SOURCE_ROOT; };
-		029B44D115412C9600D0E250 /* TextFieldWithInset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldWithInset.h; sourceTree = SOURCE_ROOT; };
-		029B44D215412C9600D0E250 /* TextFieldWithInset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldWithInset.m; sourceTree = SOURCE_ROOT; };
-		029B44EF15412CA000D0E250 /* NSTimer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Block.h"; sourceTree = SOURCE_ROOT; };
-		029B44F015412CA000D0E250 /* NSTimer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Block.m"; sourceTree = SOURCE_ROOT; };
-		029B44F415412CB700D0E250 /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = SOURCE_ROOT; };
-		029B44F515412CB700D0E250 /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = SOURCE_ROOT; };
 		02E07135154094FE00BF4BCE /* libRFLibraries.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRFLibraries.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E07138154094FE00BF4BCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		02E07145154094FE00BF4BCE /* RFLibrariesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFLibrariesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -246,11 +241,13 @@
 		02E071661540954700BF4BCE /* Misc */ = {
 			isa = PBXGroup;
 			children = (
-				029B448815412C7100D0E250 /* RFMacros.h */,
-				029B448915412C7100D0E250 /* ISO8601DateFormatter.h */,
-				029B448A15412C7100D0E250 /* ISO8601DateFormatter.m */,
-				029B448B15412C7100D0E250 /* WebSnapsticle.h */,
-				029B448C15412C7100D0E250 /* WebSnapsticle.m */,
+				02780EA61541333B006332E0 /* ISO8601DateFormatter.h */,
+				02780EA71541333B006332E0 /* ISO8601DateFormatter.m */,
+				02780EA81541333B006332E0 /* Reachability.h */,
+				02780EA91541333B006332E0 /* Reachability.m */,
+				02780EAA1541333B006332E0 /* RFMacros.h */,
+				02780EAB1541333B006332E0 /* WebSnapsticle.h */,
+				02780EAC1541333B006332E0 /* WebSnapsticle.m */,
 			);
 			name = Misc;
 			sourceTree = "<group>";
@@ -258,28 +255,24 @@
 		02E071671540955100BF4BCE /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				029B44F415412CB700D0E250 /* UIAlertView+Block.h */,
-				029B44F515412CB700D0E250 /* UIAlertView+Block.m */,
-				029B44EF15412CA000D0E250 /* NSTimer+Block.h */,
-				029B44F015412CA000D0E250 /* NSTimer+Block.m */,
-				029B449415412C8900D0E250 /* NSString+Additions.h */,
-				029B449515412C8900D0E250 /* NSString+Additions.m */,
-				029B449615412C8900D0E250 /* UIColor+Additions.h */,
-				029B449715412C8900D0E250 /* UIColor+Additions.m */,
-				029B449815412C8900D0E250 /* CoreGraphics+DDAdditions.h */,
-				029B449915412C8900D0E250 /* CoreGraphics+TVAdditions.h */,
-				029B449A15412C8900D0E250 /* NSArray+Additions.h */,
-				029B449B15412C8900D0E250 /* NSArray+Additions.m */,
-				029B449C15412C8900D0E250 /* NSArray+Reverse.h */,
-				029B449D15412C8900D0E250 /* NSArray+Reverse.m */,
-				029B449E15412C8900D0E250 /* NSDate+Additions.h */,
-				029B449F15412C8900D0E250 /* NSDate+Additions.m */,
-				029B44A015412C8900D0E250 /* NSDate+Utilities.h */,
-				029B44A115412C8900D0E250 /* NSDate+Utilities.m */,
-				029B44A215412C8900D0E250 /* UIView+Additions.h */,
-				029B44A315412C8900D0E250 /* UIView+Additions.m */,
-				029B44A415412C8900D0E250 /* UIImage+Additions.h */,
-				029B44A515412C8900D0E250 /* UIImage+Additions.m */,
+				02780EA41541333B006332E0 /* CoreGraphics+DDAdditions.h */,
+				02780EA51541333B006332E0 /* CoreGraphics+TVAdditions.h */,
+				02780EE315413370006332E0 /* NSArray+Additions.h */,
+				02780EE415413370006332E0 /* NSArray+Additions.m */,
+				02780EE515413370006332E0 /* NSArray+Reverse.h */,
+				02780EE615413370006332E0 /* NSArray+Reverse.m */,
+				02780EE715413370006332E0 /* NSDate+Additions.h */,
+				02780EE815413370006332E0 /* NSDate+Additions.m */,
+				02780EE915413370006332E0 /* NSDate+Utilities.h */,
+				02780EEA15413370006332E0 /* NSDate+Utilities.m */,
+				02780EEB15413370006332E0 /* NSString+Additions.h */,
+				02780EEC15413370006332E0 /* NSString+Additions.m */,
+				02780EED15413370006332E0 /* UIColor+Additions.h */,
+				02780EEE15413370006332E0 /* UIColor+Additions.m */,
+				02780EEF15413370006332E0 /* UIImage+Additions.h */,
+				02780EF015413370006332E0 /* UIImage+Additions.m */,
+				02780EF115413370006332E0 /* UIView+Additions.h */,
+				02780EF215413370006332E0 /* UIView+Additions.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -287,25 +280,25 @@
 		02E071681540955B00BF4BCE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				029B44C015412C9600D0E250 /* ImageViewCenteredFit.h */,
-				029B44C115412C9600D0E250 /* ImageViewCenteredFit.m */,
-				029B44C215412C9600D0E250 /* LoadingView.h */,
-				029B44C315412C9600D0E250 /* LoadingView.m */,
-				029B44C415412C9600D0E250 /* LoadingView.xib */,
-				029B44C515412C9600D0E250 /* RNTextView.h */,
-				029B44C615412C9600D0E250 /* RNTextView.m */,
-				029B44C715412C9600D0E250 /* GradientView.h */,
-				029B44C815412C9600D0E250 /* GradientView.m */,
-				029B44C915412C9600D0E250 /* BorderView.h */,
-				029B44CA15412C9600D0E250 /* BorderView.m */,
-				029B44CB15412C9600D0E250 /* YoutubeView.h */,
-				029B44CC15412C9600D0E250 /* YoutubeView.m */,
-				029B44CD15412C9600D0E250 /* HorizontalTableView.h */,
-				029B44CE15412C9600D0E250 /* HorizontalTableView.m */,
-				029B44CF15412C9600D0E250 /* ImageSpinnerView.h */,
-				029B44D015412C9600D0E250 /* ImageSpinnerView.m */,
-				029B44D115412C9600D0E250 /* TextFieldWithInset.h */,
-				029B44D215412C9600D0E250 /* TextFieldWithInset.m */,
+				02780EB915413358006332E0 /* GradientView.h */,
+				02780EBA15413358006332E0 /* GradientView.m */,
+				02780EBB15413358006332E0 /* HorizontalTableView.h */,
+				02780EBC15413358006332E0 /* HorizontalTableView.m */,
+				02780EBD15413358006332E0 /* ImageSpinnerView.h */,
+				02780EBE15413358006332E0 /* ImageSpinnerView.m */,
+				02780EBF15413358006332E0 /* ImageViewCenteredFit.h */,
+				02780EC015413358006332E0 /* ImageViewCenteredFit.m */,
+				02780EC115413358006332E0 /* LoadingView.h */,
+				02780EC215413358006332E0 /* LoadingView.m */,
+				02780EC315413358006332E0 /* LoadingView.xib */,
+				02780EC415413358006332E0 /* RNTextView.h */,
+				02780EC515413358006332E0 /* RNTextView.m */,
+				02780EC615413358006332E0 /* TextFieldWithInset.h */,
+				02780EC715413358006332E0 /* TextFieldWithInset.m */,
+				02780EC815413358006332E0 /* YoutubeView.h */,
+				02780EC915413358006332E0 /* YoutubeView.m */,
+				02780E9F154132FB006332E0 /* BorderView.h */,
+				02780EA0154132FB006332E0 /* BorderView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -318,30 +311,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				029B447315412BD500D0E250 /* RFLibraries-Prefix.pch in Headers */,
-				029B448D15412C7100D0E250 /* RFMacros.h in Headers */,
-				029B448E15412C7100D0E250 /* ISO8601DateFormatter.h in Headers */,
-				029B449115412C7100D0E250 /* WebSnapsticle.h in Headers */,
-				029B44A615412C8900D0E250 /* NSString+Additions.h in Headers */,
-				029B44A915412C8900D0E250 /* UIColor+Additions.h in Headers */,
-				029B44AC15412C8900D0E250 /* CoreGraphics+DDAdditions.h in Headers */,
-				029B44AD15412C8900D0E250 /* CoreGraphics+TVAdditions.h in Headers */,
-				029B44AE15412C8900D0E250 /* NSArray+Additions.h in Headers */,
-				029B44B115412C8900D0E250 /* NSArray+Reverse.h in Headers */,
-				029B44B415412C8900D0E250 /* NSDate+Additions.h in Headers */,
-				029B44B715412C8900D0E250 /* NSDate+Utilities.h in Headers */,
-				029B44BA15412C8900D0E250 /* UIView+Additions.h in Headers */,
-				029B44BD15412C8900D0E250 /* UIImage+Additions.h in Headers */,
-				029B44D315412C9600D0E250 /* ImageViewCenteredFit.h in Headers */,
-				029B44D615412C9600D0E250 /* LoadingView.h in Headers */,
-				029B44DA15412C9600D0E250 /* RNTextView.h in Headers */,
-				029B44DD15412C9600D0E250 /* GradientView.h in Headers */,
-				029B44E015412C9600D0E250 /* BorderView.h in Headers */,
-				029B44E315412C9600D0E250 /* YoutubeView.h in Headers */,
-				029B44E615412C9600D0E250 /* HorizontalTableView.h in Headers */,
-				029B44E915412C9600D0E250 /* ImageSpinnerView.h in Headers */,
-				029B44EC15412C9600D0E250 /* TextFieldWithInset.h in Headers */,
-				029B44F115412CA000D0E250 /* NSTimer+Block.h in Headers */,
-				029B44F615412CB700D0E250 /* UIAlertView+Block.h in Headers */,
+				02780EA1154132FB006332E0 /* BorderView.h in Headers */,
+				02780EAD1541333B006332E0 /* CoreGraphics+DDAdditions.h in Headers */,
+				02780EAE1541333B006332E0 /* CoreGraphics+TVAdditions.h in Headers */,
+				02780EAF1541333B006332E0 /* ISO8601DateFormatter.h in Headers */,
+				02780EB21541333B006332E0 /* Reachability.h in Headers */,
+				02780EB51541333B006332E0 /* RFMacros.h in Headers */,
+				02780EB61541333B006332E0 /* WebSnapsticle.h in Headers */,
+				02780ECA15413358006332E0 /* GradientView.h in Headers */,
+				02780ECD15413358006332E0 /* HorizontalTableView.h in Headers */,
+				02780ED015413358006332E0 /* ImageSpinnerView.h in Headers */,
+				02780ED315413358006332E0 /* ImageViewCenteredFit.h in Headers */,
+				02780ED615413358006332E0 /* LoadingView.h in Headers */,
+				02780EDA15413358006332E0 /* RNTextView.h in Headers */,
+				02780EDD15413358006332E0 /* TextFieldWithInset.h in Headers */,
+				02780EE015413358006332E0 /* YoutubeView.h in Headers */,
+				02780EF315413370006332E0 /* NSArray+Additions.h in Headers */,
+				02780EF615413370006332E0 /* NSArray+Reverse.h in Headers */,
+				02780EF915413370006332E0 /* NSDate+Additions.h in Headers */,
+				02780EFC15413370006332E0 /* NSDate+Utilities.h in Headers */,
+				02780EFF15413370006332E0 /* NSString+Additions.h in Headers */,
+				02780F0215413370006332E0 /* UIColor+Additions.h in Headers */,
+				02780F0515413370006332E0 /* UIImage+Additions.h in Headers */,
+				02780F0815413370006332E0 /* UIView+Additions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02E07153154094FE00BF4BCE /* InfoPlist.strings in Resources */,
-				029B44D915412C9600D0E250 /* LoadingView.xib in Resources */,
+				02780ED915413358006332E0 /* LoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,27 +436,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029B448F15412C7100D0E250 /* ISO8601DateFormatter.m in Sources */,
-				029B449215412C7100D0E250 /* WebSnapsticle.m in Sources */,
-				029B44A715412C8900D0E250 /* NSString+Additions.m in Sources */,
-				029B44AA15412C8900D0E250 /* UIColor+Additions.m in Sources */,
-				029B44AF15412C8900D0E250 /* NSArray+Additions.m in Sources */,
-				029B44B215412C8900D0E250 /* NSArray+Reverse.m in Sources */,
-				029B44B515412C8900D0E250 /* NSDate+Additions.m in Sources */,
-				029B44B815412C8900D0E250 /* NSDate+Utilities.m in Sources */,
-				029B44BB15412C8900D0E250 /* UIView+Additions.m in Sources */,
-				029B44BE15412C8900D0E250 /* UIImage+Additions.m in Sources */,
-				029B44D415412C9600D0E250 /* ImageViewCenteredFit.m in Sources */,
-				029B44D715412C9600D0E250 /* LoadingView.m in Sources */,
-				029B44DB15412C9600D0E250 /* RNTextView.m in Sources */,
-				029B44DE15412C9600D0E250 /* GradientView.m in Sources */,
-				029B44E115412C9600D0E250 /* BorderView.m in Sources */,
-				029B44E415412C9600D0E250 /* YoutubeView.m in Sources */,
-				029B44E715412C9600D0E250 /* HorizontalTableView.m in Sources */,
-				029B44EA15412C9600D0E250 /* ImageSpinnerView.m in Sources */,
-				029B44ED15412C9600D0E250 /* TextFieldWithInset.m in Sources */,
-				029B44F215412CA000D0E250 /* NSTimer+Block.m in Sources */,
-				029B44F715412CB700D0E250 /* UIAlertView+Block.m in Sources */,
+				02780EA2154132FB006332E0 /* BorderView.m in Sources */,
+				02780EB01541333B006332E0 /* ISO8601DateFormatter.m in Sources */,
+				02780EB31541333B006332E0 /* Reachability.m in Sources */,
+				02780EB71541333B006332E0 /* WebSnapsticle.m in Sources */,
+				02780ECB15413358006332E0 /* GradientView.m in Sources */,
+				02780ECE15413358006332E0 /* HorizontalTableView.m in Sources */,
+				02780ED115413358006332E0 /* ImageSpinnerView.m in Sources */,
+				02780ED415413358006332E0 /* ImageViewCenteredFit.m in Sources */,
+				02780ED715413358006332E0 /* LoadingView.m in Sources */,
+				02780EDB15413358006332E0 /* RNTextView.m in Sources */,
+				02780EDE15413358006332E0 /* TextFieldWithInset.m in Sources */,
+				02780EE115413358006332E0 /* YoutubeView.m in Sources */,
+				02780EF415413370006332E0 /* NSArray+Additions.m in Sources */,
+				02780EF715413370006332E0 /* NSArray+Reverse.m in Sources */,
+				02780EFA15413370006332E0 /* NSDate+Additions.m in Sources */,
+				02780EFD15413370006332E0 /* NSDate+Utilities.m in Sources */,
+				02780F0015413370006332E0 /* NSString+Additions.m in Sources */,
+				02780F0315413370006332E0 /* UIColor+Additions.m in Sources */,
+				02780F0615413370006332E0 /* UIImage+Additions.m in Sources */,
+				02780F0915413370006332E0 /* UIView+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,27 +464,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				02E07156154094FE00BF4BCE /* RFLibrariesTests.m in Sources */,
-				029B449015412C7100D0E250 /* ISO8601DateFormatter.m in Sources */,
-				029B449315412C7100D0E250 /* WebSnapsticle.m in Sources */,
-				029B44A815412C8900D0E250 /* NSString+Additions.m in Sources */,
-				029B44AB15412C8900D0E250 /* UIColor+Additions.m in Sources */,
-				029B44B015412C8900D0E250 /* NSArray+Additions.m in Sources */,
-				029B44B315412C8900D0E250 /* NSArray+Reverse.m in Sources */,
-				029B44B615412C8900D0E250 /* NSDate+Additions.m in Sources */,
-				029B44B915412C8900D0E250 /* NSDate+Utilities.m in Sources */,
-				029B44BC15412C8900D0E250 /* UIView+Additions.m in Sources */,
-				029B44BF15412C8900D0E250 /* UIImage+Additions.m in Sources */,
-				029B44D515412C9600D0E250 /* ImageViewCenteredFit.m in Sources */,
-				029B44D815412C9600D0E250 /* LoadingView.m in Sources */,
-				029B44DC15412C9600D0E250 /* RNTextView.m in Sources */,
-				029B44DF15412C9600D0E250 /* GradientView.m in Sources */,
-				029B44E215412C9600D0E250 /* BorderView.m in Sources */,
-				029B44E515412C9600D0E250 /* YoutubeView.m in Sources */,
-				029B44E815412C9600D0E250 /* HorizontalTableView.m in Sources */,
-				029B44EB15412C9600D0E250 /* ImageSpinnerView.m in Sources */,
-				029B44EE15412C9600D0E250 /* TextFieldWithInset.m in Sources */,
-				029B44F315412CA000D0E250 /* NSTimer+Block.m in Sources */,
-				029B44F815412CB700D0E250 /* UIAlertView+Block.m in Sources */,
+				02780EA3154132FB006332E0 /* BorderView.m in Sources */,
+				02780EB11541333B006332E0 /* ISO8601DateFormatter.m in Sources */,
+				02780EB41541333B006332E0 /* Reachability.m in Sources */,
+				02780EB81541333B006332E0 /* WebSnapsticle.m in Sources */,
+				02780ECC15413358006332E0 /* GradientView.m in Sources */,
+				02780ECF15413358006332E0 /* HorizontalTableView.m in Sources */,
+				02780ED215413358006332E0 /* ImageSpinnerView.m in Sources */,
+				02780ED515413358006332E0 /* ImageViewCenteredFit.m in Sources */,
+				02780ED815413358006332E0 /* LoadingView.m in Sources */,
+				02780EDC15413358006332E0 /* RNTextView.m in Sources */,
+				02780EDF15413358006332E0 /* TextFieldWithInset.m in Sources */,
+				02780EE215413358006332E0 /* YoutubeView.m in Sources */,
+				02780EF515413370006332E0 /* NSArray+Additions.m in Sources */,
+				02780EF815413370006332E0 /* NSArray+Reverse.m in Sources */,
+				02780EFB15413370006332E0 /* NSDate+Additions.m in Sources */,
+				02780EFE15413370006332E0 /* NSDate+Utilities.m in Sources */,
+				02780F0115413370006332E0 /* NSString+Additions.m in Sources */,
+				02780F0415413370006332E0 /* UIColor+Additions.m in Sources */,
+				02780F0715413370006332E0 /* UIImage+Additions.m in Sources */,
+				02780F0A15413370006332E0 /* UIView+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,7 +556,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/RFLibraries.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RFLibraries/RFLibraries-Prefix.pch";
+				GCC_PREFIX_HEADER = "RFLibrary/RFLibraries-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -578,7 +568,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/RFLibraries.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RFLibraries/RFLibraries-Prefix.pch";
+				GCC_PREFIX_HEADER = "RFLibrary/RFLibraries-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
