@@ -32,5 +32,8 @@ Pod::Spec.new do
 
   source :git => 'git@github.com:bryceredd/RFLibrary.git'
 
+  source_dir 'RFLibrary'
+  platforms 'iPhone', 'iPad'
+
 
 end
