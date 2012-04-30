@@ -7,6 +7,7 @@
 //
 
 #import "ImageSpinnerView.h"
+#import "RFMacros.h"
 
 @interface ImageSpinnerView() 
 @property(nonatomic, strong) UIActivityIndicatorView* spinner;

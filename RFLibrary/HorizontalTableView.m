@@ -7,6 +7,7 @@
 //
 
 #import "HorizontalTableView.h"
+#import "RFMacros.h"
 
 @interface HorizontalTableView() {
     int leftIndex, rightIndex; // these indicate the next _blank_ space

@@ -54,6 +54,8 @@
 		029645C1154F0FED00117808 /* NSManagedObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 029645BD154F0FED00117808 /* NSManagedObject+JSON.m */; };
 		029B447315412BD500D0E250 /* RFLibraries-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 029B447215412BD500D0E250 /* RFLibraries-Prefix.pch */; };
 		02E07139154094FE00BF4BCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07138154094FE00BF4BCE /* Foundation.framework */; };
+		02E30E03154F12D50042161D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E30E01154F12D50042161D /* CoreData.framework */; };
+		02E30E04154F12D50042161D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E30E02154F12D50042161D /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +110,8 @@
 		02E07138154094FE00BF4BCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		02E07146154094FE00BF4BCE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		02E07148154094FE00BF4BCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		02E30E01154F12D50042161D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		02E30E02154F12D50042161D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E30E03154F12D50042161D /* CoreData.framework in Frameworks */,
+				02E30E04154F12D50042161D /* CoreText.framework in Frameworks */,
 				02E07139154094FE00BF4BCE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +148,8 @@
 		02E07137154094FE00BF4BCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				02E30E01154F12D50042161D /* CoreData.framework */,
+				02E30E02154F12D50042161D /* CoreText.framework */,
 				02E07138154094FE00BF4BCE /* Foundation.framework */,
 				02E07146154094FE00BF4BCE /* SenTestingKit.framework */,
 				02E07148154094FE00BF4BCE /* UIKit.framework */,
