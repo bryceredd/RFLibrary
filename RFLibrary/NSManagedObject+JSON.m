@@ -58,12 +58,16 @@
     return object;
 }
 
-+ (id) objectWithJSON:(NSString*)json inContext:(NSManagedObjectContext*)context {
++ (id) objectWithJSONString:(NSString*)json inContext:(NSManagedObjectContext*)context {
     NSError* error;
     id result = [NSJSONSerialization JSONObjectWithData:[json dataUsingEncoding:NSUTF8StringEncoding] options:NSJSONReadingMutableLeaves error:&error];
     
     NSAssert(!error, @"There was an error parsing the json!: %@", error);
     
+    return [self objectWithObject:result inContext:context];
+}
+
++ (id) objectWithObject:(id)arrayOrDictionary inContext:(NSManagedObjectContext*)context {
     __block id(^parseResults)(id) = ^(id result) {
         if([result isKindOfClass:[NSDictionary class]]) {
             return [self objectWithDefinition:result inContext:context];
@@ -76,7 +80,7 @@
         return nil;
     };
     
-    return parseResults(result);
+    return parseResults(arrayOrDictionary);
 }
 
 @end

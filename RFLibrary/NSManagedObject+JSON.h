@@ -11,5 +11,6 @@
 
 @interface NSManagedObject (JSON)
 + (id) objectWithDefinition:(NSDictionary*)definition inContext:(NSManagedObjectContext*)context;
-+ (id) objectWithJSON:(NSString*)json inContext:(NSManagedObjectContext*)context;
++ (id) objectWithJSONString:(NSString*)json inContext:(NSManagedObjectContext*)context;
++ (id) objectWithObject:(id)arrayOrDictionary inContext:(NSManagedObjectContext*)context;
 @end
