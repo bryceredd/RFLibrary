@@ -7,7 +7,6 @@
 //
 
 #import "NSManagedObject+JSON.h"
-#import "RFCoreDataModel.h"
 #import "NSArray+Additions.h"
 #import "ISO8601DateFormatter.h"
 
