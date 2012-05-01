@@ -49,10 +49,20 @@
     
     NSDictionary* relationships = [[object entity] relationshipsByName];
     for(NSString* relationship in relationships) {
+        NSRelationshipDescription* description = [relationships objectForKey:relationship];
         id value = [definition objectForKey:relationship];
         if(!value) continue;
         
-        [object setValue:value forKey:relationship];
+        NSEntityDescription* destination = [description destinationEntity];
+        Class class = NSClassFromString([destination managedObjectClassName]);
+        
+        id objects = [class objectWithObject:value inContext:context];
+        
+        if([objects isKindOfClass:[NSArray class]]) {
+            objects = [NSSet setWithArray:objects];
+        }
+        
+        [object setValue:objects forKey:relationship];
     }
 
     return object;
@@ -68,19 +78,16 @@
 }
 
 + (id) objectWithObject:(id)arrayOrDictionary inContext:(NSManagedObjectContext*)context {
-    __block id(^parseResults)(id) = ^(id result) {
-        if([result isKindOfClass:[NSDictionary class]]) {
-            return [self objectWithDefinition:result inContext:context];
-        }
-        if([result isKindOfClass:[NSArray class]]) {
-            return [(NSArray*)result arrayByMappingWithBlock:^(id item) { return parseResults(item); }];
-        }
-        
-        NSAssert(0, @"Something went wrong! JSON parse should only return a dictionary or array");
-        return nil;
-    };
+
+    if([arrayOrDictionary isKindOfClass:[NSDictionary class]]) {
+        return [self objectWithDefinition:arrayOrDictionary inContext:context];
+    }
+    if([arrayOrDictionary isKindOfClass:[NSArray class]]) {
+        return [(NSArray*)arrayOrDictionary arrayByMappingWithBlock:^(id item) { return [self objectWithObject:arrayOrDictionary inContext:context]; }];
+    }
     
-    return parseResults(arrayOrDictionary);
+    NSAssert(0, @"Something went wrong! JSON parse should only return a dictionary or array");
+    return nil;
 }
 
 @end
