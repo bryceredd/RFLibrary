@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0271322915508E360042DCEB /* NSObject+Properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 0271322715508E360042DCEB /* NSObject+Properties.h */; };
+		0271322A15508E360042DCEB /* NSObject+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0271322815508E360042DCEB /* NSObject+Properties.m */; };
 		02780EAD1541333B006332E0 /* CoreGraphics+DDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA41541333B006332E0 /* CoreGraphics+DDAdditions.h */; };
 		02780EAE1541333B006332E0 /* CoreGraphics+TVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA51541333B006332E0 /* CoreGraphics+TVAdditions.h */; };
 		02780EAF1541333B006332E0 /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA61541333B006332E0 /* ISO8601DateFormatter.h */; };
@@ -59,6 +61,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0271322715508E360042DCEB /* NSObject+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Properties.h"; sourceTree = SOURCE_ROOT; };
+		0271322815508E360042DCEB /* NSObject+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Properties.m"; sourceTree = SOURCE_ROOT; };
 		02780EA41541333B006332E0 /* CoreGraphics+DDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreGraphics+DDAdditions.h"; path = "RFLibrary/CoreGraphics+DDAdditions.h"; sourceTree = SOURCE_ROOT; };
 		02780EA51541333B006332E0 /* CoreGraphics+TVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreGraphics+TVAdditions.h"; path = "RFLibrary/CoreGraphics+TVAdditions.h"; sourceTree = SOURCE_ROOT; };
 		02780EA61541333B006332E0 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISO8601DateFormatter.h; path = RFLibrary/ISO8601DateFormatter.h; sourceTree = SOURCE_ROOT; };
@@ -211,6 +215,8 @@
 				02780EF015413370006332E0 /* UIImage+Additions.m */,
 				02780EF115413370006332E0 /* UIView+Additions.h */,
 				02780EF215413370006332E0 /* UIView+Additions.m */,
+				0271322715508E360042DCEB /* NSObject+Properties.h */,
+				0271322815508E360042DCEB /* NSObject+Properties.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -275,6 +281,7 @@
 				02780F4115413CCA006332E0 /* BorderView.h in Headers */,
 				029645BE154F0FED00117808 /* MethodSwizzler.h in Headers */,
 				029645C0154F0FED00117808 /* NSManagedObject+JSON.h in Headers */,
+				0271322915508E360042DCEB /* NSObject+Properties.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +357,7 @@
 				02780F4215413CCA006332E0 /* BorderView.m in Sources */,
 				029645BF154F0FED00117808 /* MethodSwizzler.m in Sources */,
 				029645C1154F0FED00117808 /* NSManagedObject+JSON.m in Sources */,
+				0271322A15508E360042DCEB /* NSObject+Properties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -41,3 +41,5 @@
 #define randomObject(__array__) ([__array__ count] ? [__array__ objectAtIndex:(arc4random() % [__array__ count])] : nil)
 
 #define fiftyFifty (arc4random() % 2)
+
+#define centerView(__viewA__) { __viewA__.frame = CGRectMake(__viewA__.superview.frame.size.width/2.f - __viewA__.frame.size.width/2.f, __viewA__.superview.frame.size.height/2.f - __viewA__.frame.size.height/2.f, __viewA__.frame.size.width, __viewA__.frame.size.height); }
