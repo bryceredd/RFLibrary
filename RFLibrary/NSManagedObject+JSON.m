@@ -9,6 +9,7 @@
 #import "NSManagedObject+JSON.h"
 #import "NSArray+Additions.h"
 #import "ISO8601DateFormatter.h"
+#import "NSObject+Properties.h"
 
 
 @implementation NSManagedObject (JSON)
@@ -21,7 +22,7 @@
     
     
     
-    // set all the primitive data
+    // set the exact attribute matches from the json
     
     NSDictionary* attributes = [[object entity] attributesByName];
     for(NSString* attribute in attributes) {
@@ -45,7 +46,7 @@
     
     
     
-    // attempt to set the relationships
+    // attempt to set the exact relationship matches
     
     NSDictionary* relationships = [[object entity] relationshipsByName];
     for(NSString* relationship in relationships) {
@@ -63,6 +64,18 @@
         }
         
         [object setValue:objects forKey:relationship];
+    }
+    
+    
+    // set the remaining properties on the entity that match the json object
+    for(NSString* property in [object properties]) {
+        if([relationships objectForKey:property]) continue;
+        if([attributes objectForKey:property]) continue;
+        
+        id value = [definition objectForKey:property];
+        if(!value) continue;
+        
+        [object setValue:value forKey:property];
     }
 
     return object;
