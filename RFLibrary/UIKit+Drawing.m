@@ -9,6 +9,7 @@
 #import "UIKit+Drawing.h"
 #import <QuartzCore/QuartzCore.h>
 #import <CoreText/CoreText.h>
+#import "RFMacros.h"
 
 @implementation UIImage (Drawing)
 
