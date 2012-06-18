@@ -54,8 +54,6 @@
         if([[object valueForKey:attribute] isEqual:value])
             continue;
         
-        NSLog(@"updating %@ from %@ to %@", attribute, [object valueForKey:attribute], value);
-        
         [object setValue:value forKey:attribute];
     }
     
@@ -82,8 +80,6 @@
         if([[object valueForKey:relationship] isEqual:value])
             continue;
             
-        NSLog(@"updating %@ from %@ to %@", relationship, [object valueForKey:relationship], value);
-            
         [object setValue:objects forKey:relationship];
     }
     
@@ -100,8 +96,6 @@
         if([[object valueForKey:property] isEqual:value])
             continue;
             
-        NSLog(@"updating %@ from %@ to %@", property, [object valueForKey:property], value);
-        
         [object setValue:value forKey:property];
     }
 
