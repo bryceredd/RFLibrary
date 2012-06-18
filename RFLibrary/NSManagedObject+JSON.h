@@ -9,6 +9,10 @@
 #import <CoreData/CoreData.h>
 #import <Foundation/NSJSONSerialization.h> 
 
+@protocol UpdatableObject
++ (id) objectToUpdateWithDocument:(NSDictionary*)definition;
+@end
+
 @interface NSManagedObject (JSON)
 + (id) objectWithDefinition:(NSDictionary*)definition inContext:(NSManagedObjectContext*)context;
 + (id) objectWithJSONString:(NSString*)json inContext:(NSManagedObjectContext*)context;

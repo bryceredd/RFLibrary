@@ -15,11 +15,17 @@
 @implementation NSManagedObject (JSON)
 
 + (id) objectWithDefinition:(NSDictionary*)definition inContext:(NSManagedObjectContext*)context {
-    NSManagedObject* object = [NSEntityDescription insertNewObjectForEntityForName:NSStringFromClass([self class]) inManagedObjectContext:context];
+    
+    NSManagedObject* object = nil;
+    
+    if([self conformsToProtocol:@protocol(UpdatableObject)]) {
+        object = [(id<UpdatableObject>)self objectToUpdateWithDocument:definition];
+    }
+    
+    if(!object) object = [NSEntityDescription insertNewObjectForEntityForName:NSStringFromClass([self class]) inManagedObjectContext:context];
     
     static ISO8601DateFormatter* formatter = nil;
     if(!formatter) formatter = [[ISO8601DateFormatter alloc] init];
-    
     
     
     // set the exact attribute matches from the json
@@ -40,6 +46,15 @@
         } else if (attributeType == NSDateAttributeType && [value isKindOfClass:[NSString class]]) {
             value = [formatter dateFromString:value];
         }
+        
+        
+        // we won't overwrite attributes that are identical, if we do
+        // then we throw an nsnotification saying an nsmanagedobject has
+        // been updated, when it's really the same in every way
+        if([[object valueForKey:attribute] isEqual:value])
+            continue;
+        
+        NSLog(@"updating %@ from %@ to %@", attribute, [object valueForKey:attribute], value);
         
         [object setValue:value forKey:attribute];
     }
@@ -63,6 +78,12 @@
             objects = [NSSet setWithArray:objects];
         }
         
+        
+        if([[object valueForKey:relationship] isEqual:value])
+            continue;
+            
+        NSLog(@"updating %@ from %@ to %@", relationship, [object valueForKey:relationship], value);
+            
         [object setValue:objects forKey:relationship];
     }
     
@@ -74,6 +95,12 @@
         
         id value = [definition objectForKey:property];
         if(!value) continue;
+        
+        
+        if([[object valueForKey:property] isEqual:value])
+            continue;
+            
+        NSLog(@"updating %@ from %@ to %@", property, [object valueForKey:property], value);
         
         [object setValue:value forKey:property];
     }
