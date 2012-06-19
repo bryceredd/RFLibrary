@@ -62,7 +62,7 @@
 
 - (void)layoutSubviews
 {
-    if(!self.image) return;
+    if(!self.image.size.width || !self.image.size.height) return;
     
     // compute scale factor for imageView
     CGFloat widthScaleFactor = CGRectGetWidth(self.bounds) / self.image.size.width;
