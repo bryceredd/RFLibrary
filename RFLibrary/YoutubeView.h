@@ -10,5 +10,5 @@
 
 @interface YoutubeView : UIWebView <UIWebViewDelegate>
 @property(nonatomic, unsafe_unretained) BOOL playOnLoad;
-- (void) loadYoutubeVideo:(NSURL*)url;
+- (void) loadYoutubeVideoId:(NSString*)videoId;
 @end

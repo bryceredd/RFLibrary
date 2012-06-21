@@ -57,4 +57,12 @@
     return [NSArray arrayWithArray: ret];
 }
 
+- (NSArray*) arrayByRemovingObjectsFromArray:(NSArray*)array {
+    NSMutableArray* temp = [self mutableCopy];
+    
+    [temp removeObjectsInArray:array];
+    
+    return temp;
+}
+
 @end

@@ -17,5 +17,6 @@
 - (id) valueByReducingWithBlock: (id(^)(id, id)) block;
 - (NSArray *) arrayByFilteringWithBlock:(BOOL(^)(id)) block;
 - (BOOL) every:(BOOL(^)(id))condition;
+- (NSArray*) arrayByRemovingObjectsFromArray:(NSArray*)array;
 
 @end
