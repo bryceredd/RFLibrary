@@ -120,7 +120,8 @@
         return [(NSArray*)arrayOrDictionary arrayByMappingWithBlock:^(id item) { return [self objectWithObject:item inContext:context]; }];
     }
     
-    NSAssert(0, @"Something went wrong! JSON parse should only return a dictionary or array");
+    NSLog(@"Something went wrong! JSON parse should only accept an array or dictionary but was passed: %@", arrayOrDictionary);
+    
     return nil;
 }
 

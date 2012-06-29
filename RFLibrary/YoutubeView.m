@@ -13,8 +13,6 @@
 @synthesize playOnLoad;
 
 - (void) loadYoutubeVideoId:(NSString*)videoId {
-    self.delegate = self;
-    
     NSString* html = [NSString stringWithFormat:@"<html><body style='margin:0'><embed id='yt' src='http://www.youtube.com/v/%@' type='application/x-shockwave-flash' width='%0.0f' height='%0.0f'></embed></body></html>", videoId, self.frame.size.width, self.frame.size.height];
 
     [self loadHTMLString:html baseURL:nil];
