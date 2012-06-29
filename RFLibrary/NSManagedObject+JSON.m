@@ -33,7 +33,7 @@
     NSDictionary* attributes = [[object entity] attributesByName];
     for(NSString* attribute in attributes) {
         id value = [definition objectForKey:attribute];
-        if(!value) continue;
+        if(!value || [value isKindOfClass:[NSNull class]]) continue;
         
         NSAttributeType attributeType = [[attributes objectForKey:attribute] attributeType];
         
@@ -65,7 +65,7 @@
     for(NSString* relationship in relationships) {
         NSRelationshipDescription* description = [relationships objectForKey:relationship];
         id value = [definition objectForKey:relationship];
-        if(!value) continue;
+        if(!value || [value isKindOfClass:[NSNull class]]) continue;
         
         NSEntityDescription* destination = [description destinationEntity];
         Class class = NSClassFromString([destination managedObjectClassName]);
@@ -90,7 +90,7 @@
         if([attributes objectForKey:property]) continue;
         
         id value = [definition objectForKey:property];
-        if(!value) continue;
+        if(!value || [value isKindOfClass:[NSNull class]]) continue;
         
         
         if([[object valueForKey:property] isEqual:value])
