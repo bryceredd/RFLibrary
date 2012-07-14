@@ -52,8 +52,6 @@
 		02780F0915413370006332E0 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EF215413370006332E0 /* UIView+Additions.m */; };
 		02780F4115413CCA006332E0 /* BorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780F3F15413CCA006332E0 /* BorderView.h */; };
 		02780F4215413CCA006332E0 /* BorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780F4015413CCA006332E0 /* BorderView.m */; };
-		029645BE154F0FED00117808 /* MethodSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 029645BA154F0FED00117808 /* MethodSwizzler.h */; };
-		029645BF154F0FED00117808 /* MethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 029645BB154F0FED00117808 /* MethodSwizzler.m */; };
 		029B447315412BD500D0E250 /* RFLibraries-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 029B447215412BD500D0E250 /* RFLibraries-Prefix.pch */; };
 		02E07139154094FE00BF4BCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07138154094FE00BF4BCE /* Foundation.framework */; };
 		02E30E03154F12D50042161D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E30E01154F12D50042161D /* CoreData.framework */; };
@@ -107,8 +105,6 @@
 		02780EF215413370006332E0 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Additions.m"; path = "RFLibrary/UIView+Additions.m"; sourceTree = SOURCE_ROOT; };
 		02780F3F15413CCA006332E0 /* BorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BorderView.h; path = RFLibrary/BorderView.h; sourceTree = SOURCE_ROOT; };
 		02780F4015413CCA006332E0 /* BorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BorderView.m; path = RFLibrary/BorderView.m; sourceTree = SOURCE_ROOT; };
-		029645BA154F0FED00117808 /* MethodSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MethodSwizzler.h; path = RFLibrary/MethodSwizzler.h; sourceTree = SOURCE_ROOT; };
-		029645BB154F0FED00117808 /* MethodSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MethodSwizzler.m; path = RFLibrary/MethodSwizzler.m; sourceTree = SOURCE_ROOT; };
 		029B447215412BD500D0E250 /* RFLibraries-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RFLibraries-Prefix.pch"; path = "RFLibrary/RFLibraries-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		02E07135154094FE00BF4BCE /* libRFLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRFLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E07138154094FE00BF4BCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -224,8 +220,6 @@
 		02E071681540955B00BF4BCE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				029645BA154F0FED00117808 /* MethodSwizzler.h */,
-				029645BB154F0FED00117808 /* MethodSwizzler.m */,
 				02780EB915413358006332E0 /* GradientView.h */,
 				02780EBA15413358006332E0 /* GradientView.m */,
 				02780EBB15413358006332E0 /* HorizontalTableView.h */,
@@ -279,7 +273,6 @@
 				02780F0515413370006332E0 /* UIImage+Additions.h in Headers */,
 				02780F0815413370006332E0 /* UIView+Additions.h in Headers */,
 				02780F4115413CCA006332E0 /* BorderView.h in Headers */,
-				029645BE154F0FED00117808 /* MethodSwizzler.h in Headers */,
 				0271323515508FFE0042DCEB /* NSObject+Properties.h in Headers */,
 				0251C60315532D000095B23D /* UIKit+Drawing.h in Headers */,
 			);
@@ -355,7 +348,6 @@
 				02780F0615413370006332E0 /* UIImage+Additions.m in Sources */,
 				02780F0915413370006332E0 /* UIView+Additions.m in Sources */,
 				02780F4215413CCA006332E0 /* BorderView.m in Sources */,
-				029645BF154F0FED00117808 /* MethodSwizzler.m in Sources */,
 				0271323615508FFE0042DCEB /* NSObject+Properties.m in Sources */,
 				0251C60415532D000095B23D /* UIKit+Drawing.m in Sources */,
 			);
