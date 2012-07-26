@@ -99,5 +99,12 @@
     [self setNeedsLayout];
 }
 
+- (void)dealloc {
+    [_imageView removeFromSuperview];
+    [_imageView release];
+    _imageView = nil;
+    [super dealloc];
+}
+
 @end
 
