@@ -79,4 +79,5 @@ Pod::Spec.new do |s|
   # Finally, specify any Pods that this Pod depends on.
   #
   # s.dependency 'JSONKit', '~> 1.4'
+  s.dependency 'ISO8601DateFormatter', '>=0.6'
 end
