@@ -37,11 +37,11 @@
 - (NSString *) stringSafeForURL {
 	
 	CFStringRef stringRef = CFURLCreateStringByAddingPercentEscapes(NULL,
-																	(__bridge CFStringRef)self,
+																	(CFStringRef)self,
 																	NULL,
-																	(__bridge CFStringRef)@"!*'\"();:@&=+$,/?%#[]% ",
+																	(CFStringRef)@"!*'\"();:@&=+$,/?%#[]% ",
 																	kCFStringEncodingUTF8 );
-	NSString *safeString = [NSString stringWithFormat:@"%@", (__bridge NSString*)stringRef];
+	NSString *safeString = [NSString stringWithFormat:@"%@", (NSString*)CFBridgingRelease(stringRef)];
 	CFRelease(stringRef);
 	
 	return safeString;

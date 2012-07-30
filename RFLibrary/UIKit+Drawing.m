@@ -99,7 +99,7 @@
                                 (const void**)&keys, 
                                 (const void**)&values, sizeof(keys) / sizeof(keys[0]), NULL, NULL);
     
-    CFAttributedStringRef attrString = CFAttributedStringCreate(kCFAllocatorDefault, (__bridge CFStringRef)stringToDraw, attributes);        
+    CFAttributedStringRef attrString = CFAttributedStringCreate(kCFAllocatorDefault, (CFStringRef)stringToDraw, attributes);        
     
     CGContextSaveGState(ctx);    
     CGContextScaleCTM(ctx, 1.0, -1.0);

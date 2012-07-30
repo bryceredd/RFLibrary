@@ -176,7 +176,7 @@ CGRect clipRectToPath(CGRect rect, CGPathRef path)
 	CFIndex charIndex = 0;
 	for (id path in [self paths])
 	{
-		CGPathRef pathRef = (__bridge CGPathRef)path;
+		CGPathRef pathRef = (CGPathRef)CFBridgingRetain(path);
 		CFArrayRef subpaths = [self copyRectangularPathsForPath:pathRef height:18.0];	// FIXME: Need algorithm w/o height. Probably means combining this routine with drawFromIndex:
 		CFIndex subpathCount = CFArrayGetCount(subpaths);
 		for (CFIndex subpathIndex = 0; subpathIndex < subpathCount; ++subpathIndex)
@@ -211,7 +211,7 @@ CGRect clipRectToPath(CGRect rect, CGPathRef path)
 {
     if (framesetter_ == NULL)
 	{
-        framesetter_ = CTFramesetterCreateWithAttributedString((__bridge CFAttributedStringRef)[self attributedString]);
+        framesetter_ = CTFramesetterCreateWithAttributedString((CFAttributedStringRef)CFBridgingRetain([self attributedString]));
     }
     return framesetter_;
 }
