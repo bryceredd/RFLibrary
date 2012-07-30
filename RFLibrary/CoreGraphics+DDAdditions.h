@@ -327,10 +327,10 @@ static inline void DDDrawLinearGradient(CGContextRef context, CGRect rect, CGCol
     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
     CGFloat locations[] = { 0.0, 1.0 };
     
-    NSArray *colors = [NSArray arrayWithObjects:(__bridge id)startColor, (__bridge id)endColor, nil];
+    NSArray *colors = [NSArray arrayWithObjects:(id)CFBridgingRelease(startColor), (id)CFBridgingRelease(endColor), nil];
     
     CGGradientRef gradient = CGGradientCreateWithColors(colorSpace, 
-                                                        (__bridge CFArrayRef) colors, locations);
+                                                        (CFArrayRef) CFBridgingRetain(colors), locations);
     
     CGPoint startPoint = CGPointMake(CGRectGetMidX(rect), CGRectGetMinY(rect));
     CGPoint endPoint = CGPointMake(CGRectGetMidX(rect), CGRectGetMaxY(rect));
