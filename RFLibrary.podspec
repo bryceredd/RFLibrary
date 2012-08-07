@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   # Also allows the use of the FileList class like `source_files does.
   #
   # s.resource = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.resources = "RFLibrary/*.xib"
 
   # A list of paths to remove after installing the Pod without the
   # `--no-clean' option. These can be examples, docs, and any other type
