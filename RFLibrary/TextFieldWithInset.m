@@ -12,12 +12,14 @@
 
 // placeholder position
 - (CGRect)textRectForBounds:(CGRect)bounds {
-     return CGRectInset( bounds , 10 , 0 );
+    if(!self.inset) self.inset = 10;
+     return CGRectInset( bounds , self.inset , 0 );
 }
 
 // text position
 - (CGRect)editingRectForBounds:(CGRect)bounds {
-     return CGRectInset( bounds , 10 , 0 );
+    if(!self.inset) self.inset = 10;
+    return CGRectInset( bounds , self.inset , 0 );
 }
 
 @end

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TextFieldWithInset : UITextField
-
+@property(nonatomic, assign) float inset;
 @end
