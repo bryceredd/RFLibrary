@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0251C60315532D000095B23D /* UIKit+Drawing.h in Headers */ = {isa = PBXBuildFile; fileRef = 0251C60115532D000095B23D /* UIKit+Drawing.h */; };
 		0251C60415532D000095B23D /* UIKit+Drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0251C60215532D000095B23D /* UIKit+Drawing.m */; };
+		02627D4916AF0A60003CB55C /* NSDictionary+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02627D4716AF0A60003CB55C /* NSDictionary+Additions.h */; };
+		02627D4A16AF0A60003CB55C /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02627D4816AF0A60003CB55C /* NSDictionary+Additions.m */; };
 		0271323515508FFE0042DCEB /* NSObject+Properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 0271323315508FFD0042DCEB /* NSObject+Properties.h */; };
 		0271323615508FFE0042DCEB /* NSObject+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0271323415508FFD0042DCEB /* NSObject+Properties.m */; };
 		02780EAD1541333B006332E0 /* CoreGraphics+DDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA41541333B006332E0 /* CoreGraphics+DDAdditions.h */; };
@@ -61,6 +63,8 @@
 /* Begin PBXFileReference section */
 		0251C60115532D000095B23D /* UIKit+Drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIKit+Drawing.h"; path = "RFLibrary/UIKit+Drawing.h"; sourceTree = SOURCE_ROOT; };
 		0251C60215532D000095B23D /* UIKit+Drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIKit+Drawing.m"; path = "RFLibrary/UIKit+Drawing.m"; sourceTree = SOURCE_ROOT; };
+		02627D4716AF0A60003CB55C /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Additions.h"; path = "RFLibrary/NSDictionary+Additions.h"; sourceTree = SOURCE_ROOT; };
+		02627D4816AF0A60003CB55C /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Additions.m"; path = "RFLibrary/NSDictionary+Additions.m"; sourceTree = SOURCE_ROOT; };
 		0271323315508FFD0042DCEB /* NSObject+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Properties.h"; path = "RFLibrary/NSObject+Properties.h"; sourceTree = SOURCE_ROOT; };
 		0271323415508FFD0042DCEB /* NSObject+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Properties.m"; path = "RFLibrary/NSObject+Properties.m"; sourceTree = SOURCE_ROOT; };
 		02780EA41541333B006332E0 /* CoreGraphics+DDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreGraphics+DDAdditions.h"; path = "RFLibrary/CoreGraphics+DDAdditions.h"; sourceTree = SOURCE_ROOT; };
@@ -210,6 +214,8 @@
 				02780EED15413370006332E0 /* UIColor+Additions.h */,
 				02780EEE15413370006332E0 /* UIColor+Additions.m */,
 				02780EEF15413370006332E0 /* UIImage+Additions.h */,
+				02627D4716AF0A60003CB55C /* NSDictionary+Additions.h */,
+				02627D4816AF0A60003CB55C /* NSDictionary+Additions.m */,
 				02780EF015413370006332E0 /* UIImage+Additions.m */,
 				02780EF115413370006332E0 /* UIView+Additions.h */,
 				02780EF215413370006332E0 /* UIView+Additions.m */,
@@ -275,6 +281,7 @@
 				02780F4115413CCA006332E0 /* BorderView.h in Headers */,
 				0271323515508FFE0042DCEB /* NSObject+Properties.h in Headers */,
 				0251C60315532D000095B23D /* UIKit+Drawing.h in Headers */,
+				02627D4916AF0A60003CB55C /* NSDictionary+Additions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +357,7 @@
 				02780F4215413CCA006332E0 /* BorderView.m in Sources */,
 				0271323615508FFE0042DCEB /* NSObject+Properties.m in Sources */,
 				0251C60415532D000095B23D /* UIKit+Drawing.m in Sources */,
+				02627D4A16AF0A60003CB55C /* NSDictionary+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

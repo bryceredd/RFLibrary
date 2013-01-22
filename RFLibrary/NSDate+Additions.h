@@ -31,7 +31,6 @@
 + (NSString *) dateStringFromDate:(NSDate *)date;
 + (NSString *) timeStringFromDate:(NSDate *)date;
 + (NSString*)humanTimeStringFromDate:(NSDate*)date;
-+ (NSDateFormatter *) timeFormatter;
 + (NSString *) newsDateStringFromDate:(NSDate *)date;
 + (NSTimeInterval) roundedDownToSlot:(NSTimeInterval)date;
 + (NSTimeInterval) nextSlot:(NSTimeInterval)slot;
