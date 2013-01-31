@@ -65,4 +65,24 @@
     return temp;
 }
 
+- (NSDictionary*) groupBy:(SEL)selector {
+    NSMutableDictionary* dict = [@{} mutableCopy];
+    for(id item in self) {
+        if(!dict[[item performSelector:selector]]) {
+            dict[[item performSelector:selector]] = [NSMutableArray array];
+        }
+        
+        [dict[[item performSelector:selector]] addObject:item];
+    }
+    return dict;
+}
+
+- (NSDictionary*) groupByFlat:(SEL)selector {
+    NSMutableDictionary* dict = [@{} mutableCopy];
+    for(id item in self) {
+        dict[[item performSelector:selector]] = item;
+    }
+    return dict;
+}
+
 @end

@@ -18,5 +18,7 @@
 - (NSArray *) arrayByFilteringWithBlock:(BOOL(^)(id)) block;
 - (BOOL) every:(BOOL(^)(id))condition;
 - (NSArray*) arrayByRemovingObjectsFromArray:(NSArray*)array;
+- (NSDictionary*) groupBy:(SEL)selector;
+- (NSDictionary*) groupByFlat:(SEL)selector;
 
 @end
