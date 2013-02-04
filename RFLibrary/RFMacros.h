@@ -24,8 +24,8 @@
 #define degreesToRadian(x) (M_PI * (x) / 180.0)
 #define RGB(r,g,b) [UIColor colorWithRed:(float)r/0xff green:(float)g/0xff blue:(float)b/0xff alpha:1.0]
 
-#define CGRectShrink(_rect_, _padding_) CGRectMake(_rect_.origin.x+_padding_, _rect_.origin.y+_padding_, _rect_.size.width-_padding_*2, _rect_.size.height-_padding_*2);
-#define CGRectScale(_rect_, _scale_) CGRectMake(_rect_.origin.x+(_rect_.size.width-(_rect_.size.width*_scale_))/2.f, _rect_.origin.y+(_rect_.size.height-(_rect_.size.height*_scale_))/2.f, _rect_.size.width*_scale_, _rect_.size.height*_scale_);
+#define CGRectShrink(_rect_, _padding_) CGRectMake(_rect_.origin.x+_padding_, _rect_.origin.y+_padding_, _rect_.size.width-_padding_*2, _rect_.size.height-_padding_*2)
+#define CGRectScale(_rect_, _scale_) CGRectMake(_rect_.origin.x+(_rect_.size.width-(_rect_.size.width*_scale_))/2.f, _rect_.origin.y+(_rect_.size.height-(_rect_.size.height*_scale_))/2.f, _rect_.size.width*_scale_, _rect_.size.height*_scale_)
 #define CGRectRound(__a__) __a__ = CGRectMake((int)__a__.origin.x, (int)__a__.origin.y, (int)__a__.size.width, (int)__a__.size.height)
 
 #define retina ([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2)
