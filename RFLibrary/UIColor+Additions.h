@@ -13,5 +13,9 @@
 
 + (UIColor*) averageColorBetweenColor:(UIColor*)color1 andColor:(UIColor*)color2;
 + (UIColor*) randomColor;
++ (UIColor*) colorWithHexString: (NSString *) hexString;
+
++ (UIColor *)lighterColorForColor:(UIColor *)c;
++ (UIColor *)darkerColorForColor:(UIColor *)c;
 
 @end

@@ -59,7 +59,7 @@ Pod::Spec.new do |s|
   # against for this Pod to work.
   #
   # s.framework = 'SomeFramework'
-   s.frameworks = 'CoreText', 'CoreData'
+   s.frameworks = 'CoreText', 'CoreData', 'QuartzCore'
 
   # Specify a list of libraries that the application needs to link
   # against for this Pod to work.

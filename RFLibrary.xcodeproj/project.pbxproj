@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0251C60315532D000095B23D /* UIKit+Drawing.h in Headers */ = {isa = PBXBuildFile; fileRef = 0251C60115532D000095B23D /* UIKit+Drawing.h */; };
 		0251C60415532D000095B23D /* UIKit+Drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0251C60215532D000095B23D /* UIKit+Drawing.m */; };
+		025E091416C96AE000D0F23E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025E091316C96AE000D0F23E /* QuartzCore.framework */; };
 		02627D4916AF0A60003CB55C /* NSDictionary+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02627D4716AF0A60003CB55C /* NSDictionary+Additions.h */; };
 		02627D4A16AF0A60003CB55C /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02627D4816AF0A60003CB55C /* NSDictionary+Additions.m */; };
 		0271323515508FFE0042DCEB /* NSObject+Properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 0271323315508FFD0042DCEB /* NSObject+Properties.h */; };
@@ -63,6 +64,7 @@
 /* Begin PBXFileReference section */
 		0251C60115532D000095B23D /* UIKit+Drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIKit+Drawing.h"; path = "RFLibrary/UIKit+Drawing.h"; sourceTree = SOURCE_ROOT; };
 		0251C60215532D000095B23D /* UIKit+Drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIKit+Drawing.m"; path = "RFLibrary/UIKit+Drawing.m"; sourceTree = SOURCE_ROOT; };
+		025E091316C96AE000D0F23E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		02627D4716AF0A60003CB55C /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Additions.h"; path = "RFLibrary/NSDictionary+Additions.h"; sourceTree = SOURCE_ROOT; };
 		02627D4816AF0A60003CB55C /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Additions.m"; path = "RFLibrary/NSDictionary+Additions.m"; sourceTree = SOURCE_ROOT; };
 		0271323315508FFD0042DCEB /* NSObject+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Properties.h"; path = "RFLibrary/NSObject+Properties.h"; sourceTree = SOURCE_ROOT; };
@@ -123,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				025E091416C96AE000D0F23E /* QuartzCore.framework in Frameworks */,
 				02E30E03154F12D50042161D /* CoreData.framework in Frameworks */,
 				02E30E04154F12D50042161D /* CoreText.framework in Frameworks */,
 				02E07139154094FE00BF4BCE /* Foundation.framework in Frameworks */,
@@ -135,6 +138,7 @@
 		02E0712A154094FE00BF4BCE = {
 			isa = PBXGroup;
 			children = (
+				025E091316C96AE000D0F23E /* QuartzCore.framework */,
 				02E0713A154094FE00BF4BCE /* RFLibraries */,
 				02E07137154094FE00BF4BCE /* Frameworks */,
 				02E07136154094FE00BF4BCE /* Products */,
