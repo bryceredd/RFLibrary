@@ -8,7 +8,6 @@
 
 #import "NSManagedObject+RFLibrary.h"
 #import "RFFetchedResultsController.h"
-#import "libs.h"
 
 @implementation NSManagedObject (RFLibrary)
 
@@ -23,7 +22,7 @@
 }
 
 + (NSFetchedResultsController*) observeSingle:(RFItemBlock)callback {
-    return [self observeWithCallback:^(NSArray* objs) { callback([objs firstObject]); }];
+    return [self observeWithCallback:^(NSArray* objs) { callback(objs.count? objs[0]: nil); }];
 }
 
 + (NSFetchedResultsController*) observeWithCallback:(RFArrayBlock)callback {

@@ -23,7 +23,6 @@ typedef void (^RFAsyncBlock)(RFBlock);
 + (NSFetchedResultsController*) observeWithCallback:(RFArrayBlock)callback;
 + (NSFetchedResultsController*) observeWithPredicate:(id)predicateOrString callback:(RFArrayBlock) callback;
 + (NSFetchedResultsController*) observeWithPredicate:(id)predicateOrString sort:(NSString*)key callback:(RFArrayBlock)callback;
-+ (NSFetchedResultsController*) observeFetchedResultsController:(NSFetchedResultsController*)controller callback:(RFArrayBlock)callback;
 
 
 @end
