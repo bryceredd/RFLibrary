@@ -1,0 +1,25 @@
+
+EXTERNAL SOURCES: 
+  ITVCoreJSON: 
+    :git: git@github.com:idottv/ITVCoreJSON.git
+
+DEPENDENCIES: 
+- ITVCoreJSON (from `git@github.com:idottv/ITVCoreJSON.git')
+- NLCoreData (~> 0.4.5)
+
+COCOAPODS: 0.16.2
+
+PODS: 
+- ISO8601DateFormatter (0.6)
+- ITVCoreJSON (0.0.1): 
+  - NLCoreData (>= 0.2.0)
+  - RFLibrary (from `git@github.com:bryceredd/RFLibrary.git')
+- NLCoreData (0.4.7)
+- RFLibrary (1.0.4): 
+  - ISO8601DateFormatter (>= 0.6)
+
+SPEC CHECKSUMS: 
+  RFLibrary: 5fb580388c8abc925bf99c22ac7d50556390f455
+  ISO8601DateFormatter: dc05a2481edf49668d85d3ff8c466c32eb544780
+  ITVCoreJSON: d88a6691181119733b9ac8cc5da2c2ef5bfcdf8c
+  NLCoreData: 1ae6062ec076c8bccd1c1b932df77b54720eacc0

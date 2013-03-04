@@ -80,6 +80,4 @@ Pod::Spec.new do |s|
   #
   # s.dependency 'JSONKit', '~> 1.4'
   s.dependency 'ISO8601DateFormatter', '>=0.6'
-  s.dependency 'NLCoreData', '~> 0.4.5'
-
 end
