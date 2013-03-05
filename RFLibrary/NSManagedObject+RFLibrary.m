@@ -12,13 +12,13 @@
 @implementation NSManagedObject (RFLibrary)
 
 + (RFItemBlock) mapJSON:(RFItemBlock)callback {
-    return ^(id data) {
+    return [^(id data) {
         id obj = [self objectWithObject:data inContext:[NSManagedObjectContext mainContext] upsert:YES];
         
         [[NSManagedObjectContext mainContext] saveNested];
         
         if(callback) callback(obj);
-    };
+    } copy];
 }
 
 + (NSFetchedResultsController*) observeSingle:(RFItemBlock)callback {
