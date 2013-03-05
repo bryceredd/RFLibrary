@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "NLCoreData.h"
-#import "NSManagedObject+JSON.h"
+#import "NSManagedObject+TVJSON.h"
 
 typedef void (^RFBlock)();
 typedef void (^RFArrayBlock)(NSArray*);

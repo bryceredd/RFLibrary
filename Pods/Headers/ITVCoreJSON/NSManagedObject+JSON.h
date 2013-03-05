@@ -1,1 +1,0 @@
-../../ITVCoreJSON/NSManagedObject+JSON.h

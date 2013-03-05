@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "NLCoreData.h"
-#import "NSManagedObject+JSON.h"
+#import "NSManagedObject+TVJSON.h"
 
 @interface RFCoreDataCollectionView : UICollectionView <NSFetchedResultsControllerDelegate>
 
