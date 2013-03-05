@@ -14,17 +14,21 @@
 - (NSArray*) properties {
     NSMutableArray* array = [NSMutableArray array];
     
-    // set all the properties that weren't relationships nor attributes
-    unsigned int outCount, i;
-    objc_property_t *properties = class_copyPropertyList([self class], &outCount);
-    for(i = 0; i < outCount; i++) {
-        objc_property_t property = properties[i];
-        const char *propName = property_getName(property);
-        if(propName) {
-            [array addObject:[NSString stringWithCString:propName encoding:NSASCIIStringEncoding]];
+    for(Class klass = [self class]; klass; klass = [klass superclass]) {
+        
+        
+        // set all the properties that weren't relationships nor attributes
+        unsigned int outCount, i;
+        objc_property_t *properties = class_copyPropertyList(klass, &outCount);
+        for(i = 0; i < outCount; i++) {
+            objc_property_t property = properties[i];
+            const char *propName = property_getName(property);
+            if(propName) {
+                [array addObject:[NSString stringWithCString:propName encoding:NSASCIIStringEncoding]];
+            }
         }
+        free(properties);
     }
-    free(properties);
     
     return array;
 }
