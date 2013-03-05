@@ -13,14 +13,14 @@
 @interface RFCoreDataCollectionView : UICollectionView <NSFetchedResultsControllerDelegate>
 
 // to setup, set one of the followingfunctions:
-// klass must implement JSONBackedManagedObject
+// klass must implement TVJSONManagedObject
 
 - (void) observeClass:(Class)klass;
 - (void) observeClass:(Class)klass predicate:(id)predicateOrString;
 - (void) observeClass:(Class)klass predicate:(id)predicateOrString sort:(NSString*)key;
 - (void) observeFetchedResultsController:(NSFetchedResultsController*)controller;
 
-- (NSObject<JSONBackedManagedObject>*) objectAtIndexPath:(NSIndexPath*)indexPath;
+- (NSObject<TVJSONManagedObject>*) objectAtIndexPath:(NSIndexPath*)indexPath;
 - (int) numberOfSections;
 - (int) numberOfObjectsForSection:(int)section;
 

@@ -11,7 +11,7 @@
 
 // Each CoreData object that you want to use with NSManagedObject+JSON *MUST* conform to this protocol.
 // Will assert a failure if it doesn't
-@protocol JSONBackedManagedObject
+@protocol TVJSONManagedObject
 
 @optional
 

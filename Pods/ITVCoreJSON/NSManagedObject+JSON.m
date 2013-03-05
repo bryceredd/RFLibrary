@@ -36,7 +36,7 @@
 
 + (id) objectWithDefinition:(NSDictionary*)definition context:(NSManagedObjectContext*)context upsert:(BOOL)upsert {
     
-    if (![self conformsToProtocol:@protocol(JSONBackedManagedObject)]) {
+    if (![self conformsToProtocol:@protocol(TVJSONManagedObject)]) {
         NSLog(@"NSManagedObject+JSON objects requires the UpdateObject protocol.");
         NSAssert(false, @"");
         return nil;
@@ -45,7 +45,7 @@
     Class klass = [self classForDocument:definition];
     NSPredicate* predicate = [(id)klass predicateForDefinition:definition];
     
-    NSManagedObject<JSONBackedManagedObject>* object = upsert? [(id)klass fetchOrInsertSingleWithPredicate:predicate] : [(id)klass insert];
+    NSManagedObject<TVJSONManagedObject>* object = upsert? [(id)klass fetchOrInsertSingleWithPredicate:predicate] : [(id)klass insert];
     
     [(id)klass hydratePropertiesOnObject:object definition:definition upsert:upsert];
     [(id)klass hydrateRelationshipsOnObject:object definition:definition upsert:upsert];
@@ -180,7 +180,7 @@
     }
 }
 
-+ (void) hydratePropertiesOnObject:(NSManagedObject<JSONBackedManagedObject>*)object definition:(NSDictionary*)definition upsert:(BOOL)upsert {
++ (void) hydratePropertiesOnObject:(NSManagedObject<TVJSONManagedObject>*)object definition:(NSDictionary*)definition upsert:(BOOL)upsert {
     
     NSDictionary* attributes = [[object entity] attributesByName];
     
@@ -235,13 +235,13 @@
 }
 
 + (Class) classForDocument:(NSDictionary*)definition {
-    Class<JSONBackedManagedObject> klass = [self respondsToSelector:@selector(classForUniqueDocument:)]? [(id)self classForUniqueDocument:definition] : self;
+    Class<TVJSONManagedObject> klass = [self respondsToSelector:@selector(classForUniqueDocument:)]? [(id)self classForUniqueDocument:definition] : self;
     return klass? klass : self;
 }
 
 + (NSPredicate*) predicateForDefinition:(NSDictionary*)definition {
     if (![self respondsToSelector:@selector(uniqueIdKey)]) {
-        NSLog(@"JSONBackedManagedObject objects must implement either uniqueIdKey or predicateForUniqueDocument:");
+        NSLog(@"TVJSONManagedObject objects must implement either uniqueIdKey or predicateForUniqueDocument:");
         NSAssert(false, @"");
         return nil;
     }

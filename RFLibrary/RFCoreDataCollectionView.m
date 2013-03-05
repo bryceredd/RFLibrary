@@ -21,8 +21,8 @@
 }
 
 - (void) observeClass:(Class)klass predicate:(NSPredicate*)predicate {
-    if (![klass conformsToProtocol:@protocol(JSONBackedManagedObject)]) {
-        NSLog(@"Class: %@ does not conform to JSONBackedManagedObject protocol!", klass);
+    if (![klass conformsToProtocol:@protocol(TVJSONManagedObject)]) {
+        NSLog(@"Class: %@ does not conform to TVJSONManagedObject protocol!", klass);
         NSAssert(0, @"See error above");
     }
     
@@ -62,7 +62,7 @@
     [self reloadData];
 }
 
-- (NSObject<JSONBackedManagedObject>*) objectAtIndexPath:(NSIndexPath*)indexPath {
+- (NSObject<TVJSONManagedObject>*) objectAtIndexPath:(NSIndexPath*)indexPath {
     return [self.results objectAtIndexPath:indexPath];
 }
 

@@ -30,8 +30,8 @@
 }
 
 + (NSFetchedResultsController*) observeWithPredicate:(id)predicateOrString callback:(RFArrayBlock)callback {
-    if (![self conformsToProtocol:@protocol(JSONBackedManagedObject)]) {
-        NSLog(@"Class: %@ does not conform to JSONBackedManagedObject protocol!", self);
+    if (![self conformsToProtocol:@protocol(TVJSONManagedObject)]) {
+        NSLog(@"Class: %@ does not conform to TVJSONManagedObject protocol!", self);
         NSAssert(0, @"See error above");
     }
     return [self observeWithPredicate:predicateOrString sort:[(id)self uniqueIdKey] callback:callback];
