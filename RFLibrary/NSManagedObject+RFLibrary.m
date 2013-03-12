@@ -34,15 +34,15 @@
         NSLog(@"Class: %@ does not conform to TVJSONManagedObject protocol!", self);
         NSAssert(0, @"See error above");
     }
-    return [self observeWithPredicate:predicateOrString sort:[(id)self uniqueIdKey] callback:callback];
+    return [self observeWithPredicate:predicateOrString sort:[(id)self uniqueIdKey] ascending:YES callback:callback];
 }
 
-+ (NSFetchedResultsController*) observeWithPredicate:(id)predicate sort:(NSString*)key callback:(RFArrayBlock)callback {
++ (NSFetchedResultsController*) observeWithPredicate:(id)predicateOrString sort:(NSString*)key ascending:(BOOL)ascending callback:(RFArrayBlock)callback {
 
     NSManagedObjectContext* context = [NSManagedObjectContext mainContext];
     NSEntityDescription* entity = [NSEntityDescription entityForName:NSStringFromClass([self class]) inManagedObjectContext:context];
     NSFetchRequest* request = [[NSFetchRequest alloc] init];
-    NSSortDescriptor* sort = [[NSSortDescriptor alloc] initWithKey:key ascending:YES];
+    NSSortDescriptor* sort = [[NSSortDescriptor alloc] initWithKey:key ascending:ascending];
     
     if([predicate isKindOfClass:[NSString class]]) {
         predicate = [NSPredicate predicateWithFormat:(NSString*)predicate];
