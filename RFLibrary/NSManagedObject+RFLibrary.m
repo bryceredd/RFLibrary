@@ -44,12 +44,12 @@
     NSFetchRequest* request = [[NSFetchRequest alloc] init];
     NSSortDescriptor* sort = [[NSSortDescriptor alloc] initWithKey:key ascending:ascending];
     
-    if([predicate isKindOfClass:[NSString class]]) {
-        predicate = [NSPredicate predicateWithFormat:(NSString*)predicate];
+    if([predicateOrString isKindOfClass:[NSString class]]) {
+        predicateOrString = [NSPredicate predicateWithFormat:(NSString*)predicateOrString];
     }
     
     request.sortDescriptors = [NSArray arrayWithObject:sort];
-    request.predicate = predicate;
+    request.predicate = predicateOrString;
     request.entity = entity;
     request.fetchBatchSize = 50;
     
