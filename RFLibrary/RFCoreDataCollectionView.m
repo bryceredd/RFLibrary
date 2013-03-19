@@ -58,6 +58,9 @@
         NSLog(@"FETCH REQUEST RESULT TYPE IS DICTIONARY - AUTOMATIC UPDATES DISABLED");
     }
     
+    self.objectChanges = [@[] mutableCopy];
+    self.sectionChanges = [@[] mutableCopy];
+    
     [_results performFetch:nil];
     [self reloadData];
 }
@@ -81,20 +84,6 @@
 
 
 #pragma observation methods
-
-- (NSMutableArray*) objectChanges {
-    if (!_objectChanges) {
-        _objectChanges = [NSMutableArray array];
-    }
-    return _objectChanges;
-}
-
-- (NSMutableArray*) sectionChanges {
-    if (!_sectionChanges) {
-        _sectionChanges = [NSMutableArray array];
-    }
-    return _sectionChanges;
-}
 
 - (void)controller:(NSFetchedResultsController *)controller didChangeSection:(id <NSFetchedResultsSectionInfo>)sectionInfo atIndex:(NSUInteger)sectionIndex forChangeType:(NSFetchedResultsChangeType)type {
     
