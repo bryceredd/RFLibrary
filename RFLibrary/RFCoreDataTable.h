@@ -17,7 +17,7 @@
 
 - (void) observeClass:(Class)klass;
 - (void) observeClass:(Class)klass predicate:(id)predicateOrString;
-- (void) observeClass:(Class)klass predicate:(id)predicateOrString sort:(NSString*)key;
+- (void) observeClass:(Class)klass predicate:(NSPredicate*)predicate sort:(NSString*)key ascending:(BOOL)ascending;
 - (void) observeFetchedResultsController:(NSFetchedResultsController*)controller;
 
 - (NSObject<TVJSONManagedObject>*) objectAtIndexPath:(NSIndexPath*)indexPath;
