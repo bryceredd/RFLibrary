@@ -24,11 +24,12 @@
         NSAssert(0, @"See error above");
     }
     
-    [self observeClass:klass predicate:predicate sort:[(id)klass uniqueIdKey]];
+    [self observeClass:klass predicate:predicate sort:[(id)klass uniqueIdKey] ascending:YES];
 }
 
-- (void) observeClass:(Class)klass predicate:(NSPredicate*)predicate sort:(NSString*)key {
-    NSSortDescriptor* sort = [[NSSortDescriptor alloc] initWithKey:[(id)klass uniqueIdKey] ascending:YES];
+- (void) observeClass:(Class)klass predicate:(NSPredicate*)predicate sort:(NSString*)key ascending:(BOOL)ascending {
+    if (!key) key = [(id)klass uniqueIdKey];
+    NSSortDescriptor* sort = [[NSSortDescriptor alloc] initWithKey:key ascending:ascending];
     NSManagedObjectContext* context = [NSManagedObjectContext mainContext];
     NSEntityDescription* entity = [NSEntityDescription entityForName:NSStringFromClass(klass) inManagedObjectContext:context];
     NSFetchRequest* request = [[NSFetchRequest alloc] init];
@@ -48,7 +49,7 @@
 }
 
 - (void) observeFetchedResultsController:(NSFetchedResultsController*)controller {
-
+    
     self.results = controller;
     self.results.delegate = self;
     
