@@ -11,6 +11,7 @@
 #import "NSManagedObject+TVJSON.h"
 
 @interface RFCoreDataTable : UITableView <NSFetchedResultsControllerDelegate>
+@property(strong, nonatomic) NSFetchedResultsController* results;
 
 // to setup, set one of the followingfunctions:
 // klass must implement TVJSONManagedObject

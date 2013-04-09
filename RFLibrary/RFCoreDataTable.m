@@ -9,7 +9,6 @@
 #import "RFCoreDataTable.h"
 
 @interface RFCoreDataTable()
-@property(nonatomic) NSFetchedResultsController* results;
 @end
 
 @implementation RFCoreDataTable
