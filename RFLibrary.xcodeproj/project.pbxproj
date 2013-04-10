@@ -51,14 +51,6 @@
 		02780F0915413370006332E0 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780EF215413370006332E0 /* UIView+Additions.m */; };
 		02780F4115413CCA006332E0 /* BorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780F3F15413CCA006332E0 /* BorderView.h */; };
 		02780F4215413CCA006332E0 /* BorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02780F4015413CCA006332E0 /* BorderView.m */; };
-		0288668516E661B700CAC70B /* NSManagedObject+RFLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 0288667D16E661B700CAC70B /* NSManagedObject+RFLibrary.h */; };
-		0288668616E661B700CAC70B /* NSManagedObject+RFLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0288667E16E661B700CAC70B /* NSManagedObject+RFLibrary.m */; };
-		0288668716E661B700CAC70B /* RFCoreDataCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0288667F16E661B700CAC70B /* RFCoreDataCollectionView.h */; };
-		0288668816E661B700CAC70B /* RFCoreDataCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0288668016E661B700CAC70B /* RFCoreDataCollectionView.m */; };
-		0288668916E661B700CAC70B /* RFCoreDataTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0288668116E661B700CAC70B /* RFCoreDataTable.h */; };
-		0288668A16E661B700CAC70B /* RFCoreDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0288668216E661B700CAC70B /* RFCoreDataTable.m */; };
-		0288668B16E661B700CAC70B /* RFFetchedResultsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0288668316E661B700CAC70B /* RFFetchedResultsController.h */; };
-		0288668C16E661B700CAC70B /* RFFetchedResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0288668416E661B700CAC70B /* RFFetchedResultsController.m */; };
 		029B447315412BD500D0E250 /* RFLibraries-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 029B447215412BD500D0E250 /* RFLibraries-Prefix.pch */; };
 		02E07139154094FE00BF4BCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E07138154094FE00BF4BCE /* Foundation.framework */; };
 		02E30E03154F12D50042161D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E30E01154F12D50042161D /* CoreData.framework */; };
@@ -114,14 +106,6 @@
 		02780EF215413370006332E0 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Additions.m"; path = "RFLibrary/UIView+Additions.m"; sourceTree = SOURCE_ROOT; };
 		02780F3F15413CCA006332E0 /* BorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BorderView.h; path = RFLibrary/BorderView.h; sourceTree = SOURCE_ROOT; };
 		02780F4015413CCA006332E0 /* BorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BorderView.m; path = RFLibrary/BorderView.m; sourceTree = SOURCE_ROOT; };
-		0288667D16E661B700CAC70B /* NSManagedObject+RFLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+RFLibrary.h"; path = "RFLibrary/NSManagedObject+RFLibrary.h"; sourceTree = SOURCE_ROOT; };
-		0288667E16E661B700CAC70B /* NSManagedObject+RFLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+RFLibrary.m"; path = "RFLibrary/NSManagedObject+RFLibrary.m"; sourceTree = SOURCE_ROOT; };
-		0288667F16E661B700CAC70B /* RFCoreDataCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFCoreDataCollectionView.h; path = RFLibrary/RFCoreDataCollectionView.h; sourceTree = SOURCE_ROOT; };
-		0288668016E661B700CAC70B /* RFCoreDataCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFCoreDataCollectionView.m; path = RFLibrary/RFCoreDataCollectionView.m; sourceTree = SOURCE_ROOT; };
-		0288668116E661B700CAC70B /* RFCoreDataTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFCoreDataTable.h; path = RFLibrary/RFCoreDataTable.h; sourceTree = SOURCE_ROOT; };
-		0288668216E661B700CAC70B /* RFCoreDataTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFCoreDataTable.m; path = RFLibrary/RFCoreDataTable.m; sourceTree = SOURCE_ROOT; };
-		0288668316E661B700CAC70B /* RFFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFFetchedResultsController.h; path = RFLibrary/RFFetchedResultsController.h; sourceTree = SOURCE_ROOT; };
-		0288668416E661B700CAC70B /* RFFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFFetchedResultsController.m; path = RFLibrary/RFFetchedResultsController.m; sourceTree = SOURCE_ROOT; };
 		029B447215412BD500D0E250 /* RFLibraries-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RFLibraries-Prefix.pch"; path = "RFLibrary/RFLibraries-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		02E07135154094FE00BF4BCE /* libRFLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRFLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E07138154094FE00BF4BCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -215,8 +199,6 @@
 		02E071671540955100BF4BCE /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				0288667D16E661B700CAC70B /* NSManagedObject+RFLibrary.h */,
-				0288667E16E661B700CAC70B /* NSManagedObject+RFLibrary.m */,
 				0251C60115532D000095B23D /* UIKit+Drawing.h */,
 				0251C60215532D000095B23D /* UIKit+Drawing.m */,
 				0271323315508FFD0042DCEB /* NSObject+Properties.h */,
@@ -267,12 +249,6 @@
 				02780F4015413CCA006332E0 /* BorderView.m */,
 				02780EC815413358006332E0 /* YoutubeView.h */,
 				02780EC915413358006332E0 /* YoutubeView.m */,
-				0288667F16E661B700CAC70B /* RFCoreDataCollectionView.h */,
-				0288668016E661B700CAC70B /* RFCoreDataCollectionView.m */,
-				0288668116E661B700CAC70B /* RFCoreDataTable.h */,
-				0288668216E661B700CAC70B /* RFCoreDataTable.m */,
-				0288668316E661B700CAC70B /* RFFetchedResultsController.h */,
-				0288668416E661B700CAC70B /* RFFetchedResultsController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -309,10 +285,6 @@
 				0251C60315532D000095B23D /* UIKit+Drawing.h in Headers */,
 				02627D4916AF0A60003CB55C /* NSDictionary+Additions.h in Headers */,
 				02F0E6F016E527DD0009BDE8 /* NSDate+Additions.h in Headers */,
-				0288668516E661B700CAC70B /* NSManagedObject+RFLibrary.h in Headers */,
-				0288668716E661B700CAC70B /* RFCoreDataCollectionView.h in Headers */,
-				0288668916E661B700CAC70B /* RFCoreDataTable.h in Headers */,
-				0288668B16E661B700CAC70B /* RFFetchedResultsController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,10 +378,6 @@
 				0251C60415532D000095B23D /* UIKit+Drawing.m in Sources */,
 				02627D4A16AF0A60003CB55C /* NSDictionary+Additions.m in Sources */,
 				02F0E6F116E527DD0009BDE8 /* NSDate+Additions.m in Sources */,
-				0288668616E661B700CAC70B /* NSManagedObject+RFLibrary.m in Sources */,
-				0288668816E661B700CAC70B /* RFCoreDataCollectionView.m in Sources */,
-				0288668A16E661B700CAC70B /* RFCoreDataTable.m in Sources */,
-				0288668C16E661B700CAC70B /* RFFetchedResultsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
