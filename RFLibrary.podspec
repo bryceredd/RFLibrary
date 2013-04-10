@@ -11,11 +11,12 @@ Pod::Spec.new do |s|
   s.summary  = 'A short description of RFLibrary.'
   s.homepage = 'http://bozar.dyndns.org/'
   s.author   = { 'bryce' => 'bryce@i.tv' }
-  s.source   = { :git => 'git@github.com:bryceredd/RFLibrary.git', :tag => "1.0.5"}
+  s.source   = :git => 'git@github.com:bryceredd/RFLibrary.git'
   s.description = 'An optional longer description of RFLibrary.'
   s.source_files = 'RFLibrary'
   s.resources = "RFLibrary/*.xib"
   s.frameworks = 'CoreText', 'CoreData', 'QuartzCore'
+
   s.dependency 'ISO8601DateFormatter', '>=0.6'
   s.dependency 'NLCoreData', '~> 0.4.5'
 end
