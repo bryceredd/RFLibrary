@@ -42,8 +42,6 @@
 																	(CFStringRef)@"!*'\"();:@&=+$,/?%#[]% ",
 																	kCFStringEncodingUTF8 );
 	NSString *safeString = [NSString stringWithFormat:@"%@", (NSString*)CFBridgingRelease(stringRef)];
-	CFRelease(stringRef);
-	
 	return safeString;
 	
 }

@@ -12,8 +12,6 @@
 		025E091416C96AE000D0F23E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025E091316C96AE000D0F23E /* QuartzCore.framework */; };
 		02627D4916AF0A60003CB55C /* NSDictionary+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02627D4716AF0A60003CB55C /* NSDictionary+Additions.h */; };
 		02627D4A16AF0A60003CB55C /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02627D4816AF0A60003CB55C /* NSDictionary+Additions.m */; };
-		0271323515508FFE0042DCEB /* NSObject+Properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 0271323315508FFD0042DCEB /* NSObject+Properties.h */; };
-		0271323615508FFE0042DCEB /* NSObject+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0271323415508FFD0042DCEB /* NSObject+Properties.m */; };
 		02780EAD1541333B006332E0 /* CoreGraphics+DDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA41541333B006332E0 /* CoreGraphics+DDAdditions.h */; };
 		02780EAE1541333B006332E0 /* CoreGraphics+TVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EA51541333B006332E0 /* CoreGraphics+TVAdditions.h */; };
 		02780EB51541333B006332E0 /* RFMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 02780EAA1541333B006332E0 /* RFMacros.h */; };
@@ -66,8 +64,6 @@
 		025E091316C96AE000D0F23E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		02627D4716AF0A60003CB55C /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Additions.h"; path = "RFLibrary/NSDictionary+Additions.h"; sourceTree = SOURCE_ROOT; };
 		02627D4816AF0A60003CB55C /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Additions.m"; path = "RFLibrary/NSDictionary+Additions.m"; sourceTree = SOURCE_ROOT; };
-		0271323315508FFD0042DCEB /* NSObject+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Properties.h"; path = "RFLibrary/NSObject+Properties.h"; sourceTree = SOURCE_ROOT; };
-		0271323415508FFD0042DCEB /* NSObject+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Properties.m"; path = "RFLibrary/NSObject+Properties.m"; sourceTree = SOURCE_ROOT; };
 		02780EA41541333B006332E0 /* CoreGraphics+DDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreGraphics+DDAdditions.h"; path = "RFLibrary/CoreGraphics+DDAdditions.h"; sourceTree = SOURCE_ROOT; };
 		02780EA51541333B006332E0 /* CoreGraphics+TVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreGraphics+TVAdditions.h"; path = "RFLibrary/CoreGraphics+TVAdditions.h"; sourceTree = SOURCE_ROOT; };
 		02780EAA1541333B006332E0 /* RFMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFMacros.h; path = RFLibrary/RFMacros.h; sourceTree = SOURCE_ROOT; };
@@ -201,8 +197,6 @@
 			children = (
 				0251C60115532D000095B23D /* UIKit+Drawing.h */,
 				0251C60215532D000095B23D /* UIKit+Drawing.m */,
-				0271323315508FFD0042DCEB /* NSObject+Properties.h */,
-				0271323415508FFD0042DCEB /* NSObject+Properties.m */,
 				02780EA41541333B006332E0 /* CoreGraphics+DDAdditions.h */,
 				02780EA51541333B006332E0 /* CoreGraphics+TVAdditions.h */,
 				02780EE315413370006332E0 /* NSArray+Additions.h */,
@@ -281,7 +275,6 @@
 				02780F0515413370006332E0 /* UIImage+Additions.h in Headers */,
 				02780F0815413370006332E0 /* UIView+Additions.h in Headers */,
 				02780F4115413CCA006332E0 /* BorderView.h in Headers */,
-				0271323515508FFE0042DCEB /* NSObject+Properties.h in Headers */,
 				0251C60315532D000095B23D /* UIKit+Drawing.h in Headers */,
 				02627D4916AF0A60003CB55C /* NSDictionary+Additions.h in Headers */,
 				02F0E6F016E527DD0009BDE8 /* NSDate+Additions.h in Headers */,
@@ -374,7 +367,6 @@
 				02780F0615413370006332E0 /* UIImage+Additions.m in Sources */,
 				02780F0915413370006332E0 /* UIView+Additions.m in Sources */,
 				02780F4215413CCA006332E0 /* BorderView.m in Sources */,
-				0271323615508FFE0042DCEB /* NSObject+Properties.m in Sources */,
 				0251C60415532D000095B23D /* UIKit+Drawing.m in Sources */,
 				02627D4A16AF0A60003CB55C /* NSDictionary+Additions.m in Sources */,
 				02F0E6F116E527DD0009BDE8 /* NSDate+Additions.m in Sources */,
